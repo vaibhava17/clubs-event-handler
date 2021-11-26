@@ -4,13 +4,11 @@
 <?php
 include('plugins/session.php');
 include('plugins/head.php');
-
 ?>
 
-<body class="">
+<body>
     <div class="wrapper ">
         <div class="sidebar" data-color="orange">
-      
             <div class="logo">
                 <a href="login.php" class="simple-text logo-normal">
                     ADMIN PANEL
@@ -21,7 +19,7 @@ include('plugins/head.php');
             </div>
         </div>
         <div class="main-panel" id="main-panel">
-        <!-- Navbar -->
+            <!-- Navbar -->
             <nav class="navbar navbar-expand-lg navbar-transparent  bg-primary  navbar-absolute">
                 <div class="container-fluid">
                     <div class="navbar-wrapper">
@@ -32,9 +30,8 @@ include('plugins/head.php');
                                 <span class="navbar-toggler-bar bar3"></span>
                             </button>
                         </div>
-                        <a class="navbar-brand" ></a>
+                        <a class="navbar-brand"></a>
                     </div>
-              
                     <div class="collapse navbar-collapse justify-content-end" id="navigation">
                     </div>
                 </div>
@@ -42,7 +39,6 @@ include('plugins/head.php');
             <!-- End Navbar -->
             <div class="panel-header panel-header-sm">
             </div>
-
             <div class="content">
                 <div class="row">
                     <div class="col-md-2">
@@ -65,9 +61,9 @@ include('plugins/head.php');
             </div>
         </div>
     </div>
-<?php
-include('plugins/footer.php');
-?>
+    <?php
+    include('plugins/footer.php');
+    ?>
 </body>
 
 </html>
