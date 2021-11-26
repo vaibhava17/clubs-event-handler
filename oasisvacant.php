@@ -7,19 +7,19 @@ $email=$_POST['email'];
 $v_post=$_POST['v_post'];
 
 
-$target="data/stride/resume/";
+$target="data/oasis/resume/";
 $file_path=$target.basename($_FILES['file']['name']);
 $file_name=$_FILES['file']['name'];
 $file_tmp=$_FILES['file']['tmp_name'];
-$file_store="data/stride/resume/".$file_name;
+$file_store="data/oasis/resume/".$file_name;
 
 move_uploaded_file($file_tmp, $file_store);
 
 
-$sql="INSERT INTO applystride(name,course,student_id,email,v_post,file) Values('$name','$course','$student_id','$email','$v_post','$file_path')";
+$sql="INSERT INTO applyoasis(name,course,student_id,email,v_post,file) Values('$name','$course','$student_id','$email','$v_post','$file_path')";
 
 if (mysqli_query($connect,$sql)) {
-	header('location: stride.php');
+	header('location: oasis.php');
 }else{
 	header('location: #');
 }

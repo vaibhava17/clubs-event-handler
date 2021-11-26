@@ -2,8 +2,8 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" type="image/png" href="images/favicon.png">
-  <title>Abhiruchi Club</title>
+  <link rel="icon" type="image/png" href="images/ssvgi/ssvgi-logo.jpg">
+  <title>SSVGI - Activity Club</title>
 
   <!-- Bootstrap CSS -->
   <link href="css/animate.css" rel="stylesheet">
@@ -67,7 +67,7 @@
 
     /*about*/
     .about{
-    background: url(images/inver.jpg) no-repeat left;
+    background: url(images/ssvgi/about.png) no-repeat left;
     background-size: 55%;
     background-color: #000;
     overflow: hidden;

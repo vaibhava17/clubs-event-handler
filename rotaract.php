@@ -16,22 +16,22 @@ include('plugins/head.php');
   <br>
   <center>
     <div class="container">
-      <h3 style=" text-align:center; ">Rock-On (The Cultural Club)</h3>
+      <h3 style=" text-align:center; ">Rotaract</h3>
       <hr>
       <div class="row">
-        <div class="col"> <img src="images/rockon1.png" ></div>
+        <div class="col"> <img src="images/mfactor1.png" ></div>
         <div class="col" style="">
         <br>
           <p>This Club appreciates inclination in good physical well-being and encourages students to participate in National and International sports event. Stride Club aims at offering an opportunity to participate in a broad variety of sports and recreational activities. This Club provides a valuable learning experience through student involvement and enhances the student’s experience that contributes to the student’s overall education and wellness.</p>
           <br>
           <br>
           <a href=""><i class="fab fa-instagram fa-lg"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <a href=""><i class="fab fa-facebook fa-lg"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <br>
+          <a href=""><i class="fab fa-facebook fa-lg"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+   <br>
           <br>
           <div class="container">
-  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#form">
-    Apply For Rock-on Club
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#form">
+    Apply For Rotaract Club
   </button>  
 </div>
 
@@ -39,14 +39,14 @@ include('plugins/head.php');
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header border-bottom-0">
-        <h5 class="modal-title" id="exampleModalLabel">Apply For Rock-on Club </h5>
+    <h5 class="modal-title" id="exampleModalLabel">Application</h5>
 
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       
-      <form role="form" action="rockonvacant.php" method="POST" enctype="multipart/form-data" onsubmit="myFunction()">
+      <form role="form" action="mfactorvacant.php" method="POST" enctype="multipart/form-data" onsubmit="myFunction()">
         <div class="modal-body">
           <div class="form-group" >
             <label >Full name</label>
@@ -82,7 +82,7 @@ include('plugins/head.php');
           </div>
         </div>
         <div class="modal-footer border-top-0 d-flex justify-content-center">
-          <button type="submit" class="btn btn-danger">Submit</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </form>
       <script >
@@ -107,7 +107,7 @@ include('plugins/head.php');
   <div class="row">
        <?php 
       include("dbs/connect.php");
-      $sql="SELECT * FROM rockon";
+      $sql="SELECT * FROM mfactor";
       $results=$connect->query($sql);
 
 
@@ -133,11 +133,11 @@ include('plugins/head.php');
       </p>
 
    <div class="row">
- <div class="col"> <a href="Admin/<?php if($final['filename']==true) {echo $final['file'];}else{  header('location:rockon.php');}?> "><button class="btn btn-danger">Read More</button></a></div>
+   <div class="col"> <a href="Admin/<?php if($final['filename']==true) {echo $final['file'];}else{  header('location:mfactor.php');}?> "><button class="btn btn-primary">Read More</button></a></div>
    
-    <div class="col">
+        <div class="col">
 <div class="container">
-  <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#enroll">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#enroll">
     Enroll Now
   </button>  
 </div>
@@ -188,7 +188,7 @@ include('plugins/head.php');
         </button>
       </div>
       
-      <form role="form" action="rockonenroll.php" method="POST" enctype="multipart/form-data" onsubmit="myFunction()">
+      <form role="form" action="mfactorenroll.php" method="POST" enctype="multipart/form-data" onsubmit="myFunction()">
         <div class="modal-body">
           <div class="form-group" >
             <label >Full name</label>
@@ -225,6 +225,8 @@ include('plugins/head.php');
   </div>
 </div>
 </center>
+  <hr>
+
 <center>
   <div class="container" id="team">
     <section class="ftco-section">
@@ -236,7 +238,7 @@ include('plugins/head.php');
           </div>
           <?php 
       include("dbs/connect.php");
-      $sql="SELECT  id, role, post, name, image FROM teammember where id = '16'";
+      $sql="SELECT  id, role, post, name, image FROM teammember where id = '26'";
       $results=$connect->query($sql);
       $final=$results->fetch_array();              
       ?>
@@ -255,7 +257,7 @@ include('plugins/head.php');
               </div>
               <?php 
       include("dbs/connect.php");
-      $sql="SELECT  id, role, post, name, image FROM teammember where id = '17'";
+      $sql="SELECT  id, role, post, name, image FROM teammember where id = '27'";
       $results=$connect->query($sql);
       $final2=$results->fetch_array();              
       ?>
@@ -272,7 +274,7 @@ include('plugins/head.php');
               </div>
               <?php 
       include("dbs/connect.php");
-      $sql="SELECT  id, role, post, name, image FROM teammember where id = '18'";
+      $sql="SELECT  id, role, post, name, image FROM teammember where id = '28'";
       $results=$connect->query($sql);
       $final2=$results->fetch_array();              
       ?>
@@ -289,7 +291,7 @@ include('plugins/head.php');
               </div>
               <?php 
       include("dbs/connect.php");
-      $sql="SELECT  id, role, post, name, image FROM teammember where id = '19'";
+      $sql="SELECT  id, role, post, name, image FROM teammember where id = '29'";
       $results=$connect->query($sql);
       $final2=$results->fetch_array();              
       ?>
@@ -306,7 +308,7 @@ include('plugins/head.php');
               </div>
               <?php 
       include("dbs/connect.php");
-      $sql="SELECT  id, role, post, name, image FROM teammember where id = '20'";
+      $sql="SELECT  id, role, post, name, image FROM teammember where id = '30'";
       $results=$connect->query($sql);
       $final2=$results->fetch_array();              
       ?>

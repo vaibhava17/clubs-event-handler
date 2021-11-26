@@ -7,10 +7,10 @@ $number=$_POST['number'];
 $eventname=$_POST['eventname'];
 
 
-$sql="INSERT INTO imagesenroll(name,course,email,number,eventname) Values('$name','$course','$email','$number','$eventname')";
+$sql="INSERT INTO gladiatorsenroll(name,course,email,number,eventname) Values('$name','$course','$email','$number','$eventname')";
 
 if (mysqli_query($connect,$sql)) {
-	header('location: images.php');
+	header('location: gladiators.php');
 }else{
 	header('location: #');
 }

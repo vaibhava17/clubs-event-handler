@@ -7,10 +7,10 @@ $number=$_POST['number'];
 $eventname=$_POST['eventname'];
 
 
-$sql="INSERT INTO panacheenroll(name,course,email,number,eventname) Values('$name','$course','$email','$number','$eventname')";
+$sql="INSERT INTO kalanjalienroll(name,course,email,number,eventname) Values('$name','$course','$email','$number','$eventname')";
 
 if (mysqli_query($connect,$sql)) {
-	header('location: panache.php');
+	header('location: kalanjali.php');
 }else{
 	header('location: #');
 }

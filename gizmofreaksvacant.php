@@ -7,19 +7,19 @@ $email=$_POST['email'];
 $v_post=$_POST['v_post'];
 
 
-$target="data/rockon/resume/";
+$target="data/gizmofreaks/resume/";
 $file_path=$target.basename($_FILES['file']['name']);
 $file_name=$_FILES['file']['name'];
 $file_tmp=$_FILES['file']['tmp_name'];
-$file_store="data/rockon/resume/".$file_name;
+$file_store="data/gizmofreaks/resume/".$file_name;
 
 move_uploaded_file($file_tmp, $file_store);
 
 
-$sql="INSERT INTO applyrockon(name,course,student_id,email,v_post,file) Values('$name','$course','$student_id','$email','$v_post','$file_path')";
+$sql="INSERT INTO applygizmofreaks(name,course,student_id,email,v_post,file) Values('$name','$course','$student_id','$email','$v_post','$file_path')";
 
 if (mysqli_query($connect,$sql)) {
-	header('location: rockon.php');
+	header('location: gizmofreaks.php');
 }else{
 	header('location: #');
 }
