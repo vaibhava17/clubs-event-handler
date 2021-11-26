@@ -9,9 +9,9 @@
         <hr>
         <br>
         
-        <div class="d-flex flex-wrap align-content-center"> <a href="#"><img src="images/logo1.png" alt="logo" style="height: 50px;"/></a>
-          <p>ABHIRUCHI (The Hobby Club) provides an appropriate platform to strive the excellence and revealed the true personality of leadership</p>
-          <p>&copy; 20201 Abhiruchi. All rights reserved.<br> Design by <a href="https://webpaage.in/" target="_blank">Akshat</a>.</p>
+        <div class="d-flex flex-wrap align-content-center"> <a href="#"><img src="images/ssvgi/ssvgi-logo.jpg" alt="logo" style="height: 50px;"/></a>
+          <h2>SSVGI Activity Clubs</h2>
+          <p>&copy; 2021 SSVGI. All rights reserved.<br> Design by <a href="https://webpaage.in/" target="_blank">Vaibhav</a>.</p>
         </div>
       </div>
       <div class="col-md-6 footer2 wow bounceInUp" data-wow-delay=".25s" id="contact">
@@ -45,14 +45,14 @@
       </div>
       <div class="col-md-3 footer3 wow bounceInRight" data-wow-delay=".25s">
         <h5>ADDRESS</h5>
-        <p>Invertis University is a private university located in Bareilly, Uttar Pradesh, India. It is situated on Bareilly-Lucknow NH-24, </p>
+        <p>10th Km, Bareilly - Nainital Rd, Near Dohna Railway Station, Bareilly, Uttar Pradesh 243001</p>
         <h5>PHONE</h5>
-        <p>253232323232</p>
+        <p>075994 71144</p>
         <h5>EMAIL</h5>
-        <p>email@example.com</p>
+        <p>contact@ssvgi.org</p>
         <div class="social-links">
           <ul class="nav nav-item">
-            <li><a href="https://www.facebook.com/fh5co" class="btn btn-secondary mr-1 mb-2"><img src="images/facebook.png" alt="facebook" /></a></li>
+            <li><a href="#" class="btn btn-secondary mr-1 mb-2"><img src="images/facebook.png" alt="facebook" /></a></li>
             <li><a href="#"  class="btn btn-secondary mr-1 ml-1 mb-2"><img src="images/facebook.png" alt="facebook" /></a></li>
             <li><a href="#"  class="btn btn-secondary mr-1 ml-1 mb-2"><img src="images/facebook.png" alt="facebook" /></a></li>
             <li><a href="#"  class="btn btn-secondary ml-1 mb-2"><img src="images/facebook.png" alt="facebook" /></a></li>

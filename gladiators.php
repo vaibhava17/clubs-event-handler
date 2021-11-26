@@ -1,4 +1,5 @@
 <?php
+
 include("dbs/connect.php");
 ?>
 
@@ -16,22 +17,22 @@ include('plugins/head.php');
   <br>
   <center>
     <div class="container">
-      <h3 style=" text-align:center; ">Images (The Publication Club)</h3>
+      <h3 style=" text-align:center; ">Gladiators (The Sports Club)</h3>
       <hr>
       <div class="row">
-        <div class="col"> <img src="images/images1.png" ></div>
+        <div class="col"> <img src="images/stridet.png" ></div>
         <div class="col" style="">
         <br>
           <p>This Club appreciates inclination in good physical well-being and encourages students to participate in National and International sports event. Stride Club aims at offering an opportunity to participate in a broad variety of sports and recreational activities. This Club provides a valuable learning experience through student involvement and enhances the student’s experience that contributes to the student’s overall education and wellness.</p>
           <br>
           <br>
-          <a href=""><i class="fab fa-instagram fa-lg"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fab fa-instagram fa-lg"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <a href=""><i class="fab fa-facebook fa-lg"></i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <br>
           <br>
-          <div class="container" >
+          <br>
+          <div class="container">
   <button type="button" class="btn btn-success" data-toggle="modal" data-target="#form">
-    Apply For Images Club
+    Apply For Gladiators Club
   </button>  
 </div>
 
@@ -39,14 +40,14 @@ include('plugins/head.php');
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header border-bottom-0">
-    <h5 class="modal-title" id="exampleModalLabel">Apply For Images Club </h5>
+        <h5 class="modal-title" id="exampleModalLabel">Application</h5>
 
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       
-      <form role="form" action="imagesvacant.php" method="POST" enctype="multipart/form-data" onsubmit="myFunction()">
+      <form role="form" action="stridevacant.php" method="POST" enctype="multipart/form-data" onsubmit="myFunction()">
         <div class="modal-body">
           <div class="form-group" >
             <label >Full name</label>
@@ -103,11 +104,17 @@ include('plugins/head.php');
   <center>
     <h2>Events</h2>
     <hr>
-    <div class="container">
+
+  <hr>
+
+
+
+ 
+<div class="container">
   <div class="row">
        <?php 
       include("dbs/connect.php");
-      $sql="SELECT * FROM images";
+      $sql="SELECT * FROM stride";
       $results=$connect->query($sql);
 
 
@@ -133,7 +140,7 @@ include('plugins/head.php');
       </p>
 
    <div class="row">
-    <div class="col"> <a href="Admin/<?php if($final['filename']==true) {echo $final['file'];}else{  header('location:images.php');}?> "><button class="btn btn-success">Read More</button></a></div>
+    <div class="col"> <a href="Admin/<?php if($final['filename']==true) {echo $final['file'];}else{  header('location:stride.php');}?> "><button class="btn btn-success">Read More</button></a></div>
    
     <div class="col">
 <div class="container">
@@ -188,7 +195,7 @@ include('plugins/head.php');
         </button>
       </div>
       
-      <form role="form" action="imagesenroll.php" method="POST" enctype="multipart/form-data" onsubmit="myFunction()">
+      <form role="form" action="strideenroll.php" method="POST" enctype="multipart/form-data" onsubmit="myFunction()">
         <div class="modal-body">
           <div class="form-group" >
             <label >Full name</label>
@@ -225,7 +232,6 @@ include('plugins/head.php');
   </div>
 </div>
 </center>
-  <hr>
 
 <!--Carousel-->
 <center>
@@ -239,7 +245,7 @@ include('plugins/head.php');
           </div>
           <?php 
       include("dbs/connect.php");
-      $sql="SELECT  id, role, post, name, image FROM teammember where id = '21'";
+      $sql="SELECT  id, role, post, name, image FROM teammember where id = '6'";
       $results=$connect->query($sql);
       $final=$results->fetch_array();              
       ?>
@@ -258,7 +264,7 @@ include('plugins/head.php');
               </div>
               <?php 
       include("dbs/connect.php");
-      $sql="SELECT  id, role, post, name, image FROM teammember where id = '22'";
+      $sql="SELECT  id, role, post, name, image FROM teammember where id = '7'";
       $results=$connect->query($sql);
       $final2=$results->fetch_array();              
       ?>
@@ -275,7 +281,7 @@ include('plugins/head.php');
               </div>
               <?php 
       include("dbs/connect.php");
-      $sql="SELECT  id, role, post, name, image FROM teammember where id = '23'";
+      $sql="SELECT  id, role, post, name, image FROM teammember where id = '8'";
       $results=$connect->query($sql);
       $final2=$results->fetch_array();              
       ?>
@@ -292,7 +298,7 @@ include('plugins/head.php');
               </div>
               <?php 
       include("dbs/connect.php");
-      $sql="SELECT  id, role, post, name, image FROM teammember where id = '24'";
+      $sql="SELECT  id, role, post, name, image FROM teammember where id = '9'";
       $results=$connect->query($sql);
       $final2=$results->fetch_array();              
       ?>
@@ -309,7 +315,7 @@ include('plugins/head.php');
               </div>
               <?php 
       include("dbs/connect.php");
-      $sql="SELECT  id, role, post, name, image FROM teammember where id = '25'";
+      $sql="SELECT  id, role, post, name, image FROM teammember where id = '10'";
       $results=$connect->query($sql);
       $final2=$results->fetch_array();              
       ?>
@@ -338,5 +344,6 @@ include('plugins/head.php');
 <?php
 include('plugins/footer.php');
 ?>
+
 </body>
 </html>

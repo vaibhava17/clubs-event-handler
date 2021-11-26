@@ -30,11 +30,9 @@ include('plugins/head.php');
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h4 class="wow bounceInUp" style="color: white;">The Art Club</h4>
+        <h4 class="wow bounceInUp" style="color: white;">Literary and Fine Arts Club</h4>
         <h2 class="wow bounceInRight">KALANJALI</h2>
         <hr>
-        <!-- <h5 class="wow bounceInLeft" style="color: white;">ABHIRUCHI</h5> -->
-        
         <p class="wow bounceInDown" style="color: white;">KALANJALI : Kalanjanli enhances dynamic literary, creative and artistic abilities of the student. Artistic pursuit from a tender age instills creativity and develops the mind to appreciate and value of nature.
         Education prospers, if the person sees it with an Artistic view & may be art or literature, as high thoughts must have high language. To bring in the said culture, Shri Siddhi Vinayak Group of Institution has taken another initiative, launching fine Art, Literary & Media club. It inculcates the habit of reading books, in turn absorbing soft skills and developing presentation skills, which sets a policy for Lifelong learning skills. This club also provides a platform for any fine art demonstration and spread the essence in order to motivate others to divine into the world of arts and excel in those chosen area along with their day-to-day academic activities. 
       </p>
@@ -45,7 +43,7 @@ include('plugins/head.php');
         </figure>
         <center>
         <br>
-          <a href="panache.php" class="btn text-uppercase btn-outline-danger btn-lg mb-3 wow bounceInDown"> Read More</a>
+          <a href="kalanjali.php" class="btn text-uppercase btn-outline-danger btn-lg mb-3 wow bounceInDown"> Read More</a>
         </center> 
       </div>
     </div>
@@ -59,8 +57,7 @@ include('plugins/head.php');
         <h4 class="wow bounceInUp" style="color: white;">The Sports Club </h4>
         <h2 class="wow bounceInRight">GLADIATORS</h2> 
         <hr>
-        <!-- <h5 class="wow bounceInLeft" style="color: white;">ABHIRUCHI</h5> -->
-        <p class="wow bounceInDown" style="color: white;">GLADIATORS (The Sports Club) : "THE GLADIATORS" (Latin: gladiator, "swordsman", from gladius, "sword") was an armed combatant who entertained audiences in the Roman Republic and Roman Empire in violent confrontations with other gladiators, wild animals, and condemned criminals. Some gladiators were volunteers who risked their lives and their legal and social standing by appearing in the arena. Most were despised as slaves, schooled under harsh conditions, socially marginalized, and segregated even in death.</p>
+        <p class="wow bounceInDown" style="color: white;">GLADIATORS : "THE GLADIATORS" (Latin: gladiator, "swordsman", from gladius, "sword") was an armed combatant who entertained audiences in the Roman Republic and Roman Empire in violent confrontations with other gladiators, wild animals, and condemned criminals. Some gladiators were volunteers who risked their lives and their legal and social standing by appearing in the arena. Most were despised as slaves, schooled under harsh conditions, socially marginalized, and segregated even in death.</p>
       </div>
       <div class="col-md-6">
         <figure class="wow bounceInDown">
@@ -68,7 +65,7 @@ include('plugins/head.php');
         </figure>
         <center>
         <br>
-          <a href="stride.php" class="btn text-uppercase btn-outline-danger btn-lg mb-3 wow bounceInDown"> Read More</a>
+          <a href="gladiators.php" class="btn text-uppercase btn-outline-danger btn-lg mb-3 wow bounceInDown"> Read More</a>
         </center> 
       </div>
     </div>
@@ -82,8 +79,7 @@ include('plugins/head.php');
         <h4 class="wow bounceInUp" style="color: white;">The Cultural Club </h4>
         <h2 class="wow bounceInRight">OASIS</h2>
         <hr>
-        <!-- <h5 class="wow bounceInLeft" style="color: white;">ABHIRUCHI</h5> -->
-        <p class="wow bounceInDown" style="color: white;">OASIS(The Cultural Club) : The aim of the club is to provide students a platform to showcase their talent in singing, dancing, dramatics which improves their personality and also strengthen their skills and presentation and leadership qualities. It helps them to learn about team work and also students are recognized as an individual among many.</p>
+        <p class="wow bounceInDown" style="color: white;">OASIS : The aim of the club is to provide students a platform to showcase their talent in singing, dancing, dramatics which improves their personality and also strengthen their skills and presentation and leadership qualities. It helps them to learn about team work and also students are recognized as an individual among many.</p>
       </div>
       <div class="col-md-6">
         <figure class="wow bounceInDown">
@@ -91,7 +87,7 @@ include('plugins/head.php');
         </figure>
         <center>
         <br>
-          <a href="rockon.php" class="btn text-uppercase btn-outline-danger btn-lg mb-3 wow bounceInDown"> Read More</a>
+          <a href="oasis.php" class="btn text-uppercase btn-outline-danger btn-lg mb-3 wow bounceInDown"> Read More</a>
         </center> 
       </div>
     </div>
@@ -102,11 +98,10 @@ include('plugins/head.php');
   <div class="container">
     <div class="row">
       <div class="col-md-6">
-        <h4 class="wow bounceInUp" style="color: white;">The Technical Club </h4>
+        <h4 class="wow bounceInUp" style="color: white;">Technical and Management Club</h4>
         <h2 class="wow bounceInRight">GIZMOFREAKS</h2>
         <hr>
-        <!-- <h5 class="wow bounceInLeft" style="color: white;">ABHIRUCHI</h5> -->
-        <p class="wow bounceInDown" style="color: white;">GIZMOFREAKS(The Technical Club) :This club working as a technical and management Club in SSVGI aims is to provide an opportunity for you to explore the amazing world of technology , to innovate, to learn, to create and a place for you to realize your dreamland develop the next killer technology.</p>
+        <p class="wow bounceInDown" style="color: white;">GIZMOFREAKS : This club working as a technical and management Club in SSVGI aims is to provide an opportunity for you to explore the amazing world of technology , to innovate, to learn, to create and a place for you to realize your dreamland develop the next killer technology.</p>
       </div>
       <div class="col-md-6">
         <figure class="wow bounceInDown"> 
@@ -114,63 +109,29 @@ include('plugins/head.php');
         </figure>
         <center>
         <br>
-          <a href="itech.php" class="btn text-uppercase btn-outline-danger btn-lg mb-3 wow bounceInDown"> Read more</a>
+          <a href="gizmofreaks.php" class="btn text-uppercase btn-outline-danger btn-lg mb-3 wow bounceInDown"> Read more</a>
         </center> 
       </div>
     </div>
   </div>
 </div>
-
-
-
-<div id="about-us" class="container-fluid fh5co-about-us pl-0 pr-0 parallax-window" data-parallax="scroll" data-image-src="images/abhiruchi.jpg">
-  <div class="container">
-    <div class="col-sm-6 offset-sm-6">
-      <h2 class="wow bounceInLeft" data-wow-delay=".25s">CLUBS & COMMITTEES</h2>
-      <hr>
-      <p class="wow bounceInRight" data-wow-delay=".25s">Shri Siddhi Vinayak Group of Institutions (SSVGI), aims that education is not limited to classrooms, it is a part of life; with the prime focus on maximizing the competencies, knowledge, inculcating professional ethics and values.</p>
-      <a class="btn btn-lg btn-outline-danger d-inline-block text-center mx-auto wow bounceInDown" href="https://www.invertisuniversity.ac.in/">Learn More</a> 
-    </div>
-  </div>
-</div>
-
-<div class="container-fluid fh5co-content-box">
+<div class="container-fluid fh5co-network t">
   <div class="container">
     <div class="row">
-      <div class="col-md-5 pr-0">
-        <img src="images/cc.png" alt="gym" class="img-fluid wow bounceInLeft">
+      <div class="col-md-6">
+        <h4 class="wow bounceInUp" style="color: white;">Rotaract Club</h4>
+        <h2 class="wow bounceInRight">ROTARACT</h2>
+        <hr>
+        <p class="wow bounceInDown" style="color: white;">Rotaract : This club working as a technical and management Club in SSVGI aims is to provide an opportunity for you to explore the amazing world of technology , to innovate, to learn, to create and a place for you to realize your dreamland develop the next killer technology.</p>
       </div>
-      <div class="col-md-7 pl-0">
-        <div class="wow bounceInRight" data-wow-delay=".25s">
-          <div class="card-img-overlay">
-          </div>
-        </div>
-   <div class="row trainers pl-0 pr-0">
-      <div class="col-12 bg-50">
-       
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="images/inv.jpeg" class="d-block w-100" alt="..." >
-            </div>
-            <div class="carousel-item">
-              <img src="images/inv2.jpg" class="d-block w-100" alt="..." >
-            </div>
-            <div class="carousel-item">
-              <img src="images/inv3.jpeg" class="d-block w-100" alt="..." > 
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-          </div>
-        </div>
+      <div class="col-md-6">
+        <figure class="wow bounceInDown"> 
+          <img src="images/i.png" alt="gym" class="img-fluid"> 
+        </figure>
+        <center>
+        <br>
+          <a href="rotaract.php" class="btn text-uppercase btn-outline-danger btn-lg mb-3 wow bounceInDown"> Read more</a>
+        </center> 
       </div>
     </div>
   </div>

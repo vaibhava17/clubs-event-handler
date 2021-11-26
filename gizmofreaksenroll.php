@@ -7,10 +7,10 @@ $number=$_POST['number'];
 $eventname=$_POST['eventname'];
 
 
-$sql="INSERT INTO responsibleenroll(name,course,email,number,eventname) Values('$name','$course','$email','$number','$eventname')";
+$sql="INSERT INTO gizmofreaksenroll(name,course,email,number,eventname) Values('$name','$course','$email','$number','$eventname')";
 
 if (mysqli_query($connect,$sql)) {
-	header('location: responsible.php');
+	header('location: gizmofreaks.php');
 }else{
 	header('location: #');
 }

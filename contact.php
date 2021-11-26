@@ -58,7 +58,7 @@ include('plugins/head.php');
     </form>
       <script >
         function myFunction() {
-          alert("Thank you for getting in touch! We appreciate you contacting us/ [Abhiruchi Team]. One of our colleagues will get back in touch with you soon!Have a great day!")
+          alert("Thank you for getting in touch! We appreciate you contacting us/ [Activity Club]. One of our colleagues will get back in touch with you soon!Have a great day!")
         }
       </script>
     
@@ -67,18 +67,18 @@ include('plugins/head.php');
       <div class="direct-contact-container">
 
         <ul class="contact-list">
-          <li class="list-item"><span class="contact-text place">NH-24 Bareilly</span></i></li>
+          <li class="list-item"><span class="contact-text place">10Km Milestone, Bareilly</span></i></li>
           
-          <li class="list-item"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">18002745252</a></span></i></li>
+          <li class="list-item"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">075994 71144</a></span></i></li>
           
-          <li class="list-item"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">register.abhiruchi@invertis.org</a></span></i></li>
+          <li class="list-item"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">contact@ssvgi.org</a></span></i></li>
           
         </ul>
 
         <hr>
         <ul class="social-media-list">
           <li><a href="#" target="_blank" class="contact-icon">
-            <i class="fa fa-github" aria-hidden="true"></i></a>
+            <i class="fa fa-facebook" aria-hidden="true"></i></a>
           </li>
           <li><a href="#" target="_blank" class="contact-icon">
             <i class="fa fa-twitter" aria-hidden="true"></i></a>

@@ -7,19 +7,19 @@ $email=$_POST['email'];
 $v_post=$_POST['v_post'];
 
 
-$target="data/images/resume/";
+$target="data/rotaract/resume/";
 $file_path=$target.basename($_FILES['file']['name']);
 $file_name=$_FILES['file']['name'];
 $file_tmp=$_FILES['file']['tmp_name'];
-$file_store="data/images/resume/".$file_name;
+$file_store="data/rotaract/resume/".$file_name;
 
 move_uploaded_file($file_tmp, $file_store);
 
 
-$sql="INSERT INTO applyimages(name,course,student_id,email,v_post,file) Values('$name','$course','$student_id','$email','$v_post','$file_path')";
+$sql="INSERT INTO applyrotaract(name,course,student_id,email,v_post,file) Values('$name','$course','$student_id','$email','$v_post','$file_path')";
 
 if (mysqli_query($connect,$sql)) {
-	header('location: images.php');
+	header('location: rotaract.php');
 }else{
 	header('location: #');
 }

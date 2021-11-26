@@ -7,10 +7,10 @@ $number=$_POST['number'];
 $eventname=$_POST['eventname'];
 
 
-$sql="INSERT INTO rockonenroll(name,course,email,number,eventname) Values('$name','$course','$email','$number','$eventname')";
+$sql="INSERT INTO rotaractenroll(name,course,email,number,eventname) Values('$name','$course','$email','$number','$eventname')";
 
 if (mysqli_query($connect,$sql)) {
-	header('location: rockon.php');
+	header('location: rotaract.php');
 }else{
 	header('location: #');
 }
