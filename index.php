@@ -31,10 +31,13 @@ include('plugins/head.php');
     <div class="row">
       <div class="col-md-6">
         <h4 class="wow bounceInUp" style="color: white;">The Art Club</h4>
-        <h2 class="wow bounceInRight">Panache</h2>
+        <h2 class="wow bounceInRight">KALANJALI</h2>
         <hr>
-        <h5 class="wow bounceInLeft" style="color: white;">ABHIRUCHI</h5>
-        <p class="wow bounceInDown" style="color: white;">Panache (The Arts Club) : Panache emphasis on artistic visions painting, modeling, sculpture making origami and welcomes beliefs in color. Panache is committed to provide a platform to explore the new ideas in a creative way of colors, which inspire the students to work with confidence and motivate others through their artistic vision. Because individuality of expression is the beginning and end of all art.</p>
+        <!-- <h5 class="wow bounceInLeft" style="color: white;">ABHIRUCHI</h5> -->
+        
+        <p class="wow bounceInDown" style="color: white;">KALANJALI : Kalanjanli enhances dynamic literary, creative and artistic abilities of the student. Artistic pursuit from a tender age instills creativity and develops the mind to appreciate and value of nature.
+        Education prospers, if the person sees it with an Artistic view & may be art or literature, as high thoughts must have high language. To bring in the said culture, Shri Siddhi Vinayak Group of Institution has taken another initiative, launching fine Art, Literary & Media club. It inculcates the habit of reading books, in turn absorbing soft skills and developing presentation skills, which sets a policy for Lifelong learning skills. This club also provides a platform for any fine art demonstration and spread the essence in order to motivate others to divine into the world of arts and excel in those chosen area along with their day-to-day academic activities. 
+      </p>
       </div>
       <div class="col-md-6">
         <figure class="wow bounceInDown">
@@ -54,10 +57,10 @@ include('plugins/head.php');
     <div class="row">
       <div class="col-md-6">
         <h4 class="wow bounceInUp" style="color: white;">The Sports Club </h4>
-        <h2 class="wow bounceInRight">STRIDE</h2>
+        <h2 class="wow bounceInRight">GLADIATORS</h2> 
         <hr>
-        <h5 class="wow bounceInLeft" style="color: white;">ABHIRUCHI</h5>
-        <p class="wow bounceInDown" style="color: white;">STRIDE (The Sports Club) : This Club appreciates inclination in good physical well-being and encourages students to participate in National and International sports event. Stride Club aims at offering an opportunity to participate in a broad variety of sports and recreational activities. This Club provides a valuable learning experience through student involvement and enhances the student’s experience that contributes to the student’s overall education and wellness..</p>
+        <!-- <h5 class="wow bounceInLeft" style="color: white;">ABHIRUCHI</h5> -->
+        <p class="wow bounceInDown" style="color: white;">GLADIATORS (The Sports Club) : "THE GLADIATORS" (Latin: gladiator, "swordsman", from gladius, "sword") was an armed combatant who entertained audiences in the Roman Republic and Roman Empire in violent confrontations with other gladiators, wild animals, and condemned criminals. Some gladiators were volunteers who risked their lives and their legal and social standing by appearing in the arena. Most were despised as slaves, schooled under harsh conditions, socially marginalized, and segregated even in death.</p>
       </div>
       <div class="col-md-6">
         <figure class="wow bounceInDown">
@@ -77,10 +80,10 @@ include('plugins/head.php');
     <div class="row">
       <div class="col-md-6">
         <h4 class="wow bounceInUp" style="color: white;">The Cultural Club </h4>
-        <h2 class="wow bounceInRight">Rock-on</h2>
+        <h2 class="wow bounceInRight">OASIS</h2>
         <hr>
-        <h5 class="wow bounceInLeft" style="color: white;">ABHIRUCHI</h5>
-        <p class="wow bounceInDown" style="color: white;">This club encourages enjoying all aspects of the performing arts (singing, dancing, and acting) as they learn the skills to showcase their talents. The mission of this Club is to give students an opportunity to familiarize themselves with art, culture and music.</p>
+        <!-- <h5 class="wow bounceInLeft" style="color: white;">ABHIRUCHI</h5> -->
+        <p class="wow bounceInDown" style="color: white;">OASIS(The Cultural Club) : The aim of the club is to provide students a platform to showcase their talent in singing, dancing, dramatics which improves their personality and also strengthen their skills and presentation and leadership qualities. It helps them to learn about team work and also students are recognized as an individual among many.</p>
       </div>
       <div class="col-md-6">
         <figure class="wow bounceInDown">
@@ -100,10 +103,10 @@ include('plugins/head.php');
     <div class="row">
       <div class="col-md-6">
         <h4 class="wow bounceInUp" style="color: white;">The Technical Club </h4>
-        <h2 class="wow bounceInRight">I-Tech</h2>
+        <h2 class="wow bounceInRight">GIZMOFREAKS</h2>
         <hr>
-        <h5 class="wow bounceInLeft" style="color: white;">ABHIRUCHI</h5>
-        <p class="wow bounceInDown" style="color: white;">I-Tech aims to promote technology and inculcate technical skills among the students. I-tech is constantly working to make the students more technically sound and efficient by organizing different workshops and seminars on various topics; they provide a platform for students to showcase their technical skills.</p>
+        <!-- <h5 class="wow bounceInLeft" style="color: white;">ABHIRUCHI</h5> -->
+        <p class="wow bounceInDown" style="color: white;">GIZMOFREAKS(The Technical Club) :This club working as a technical and management Club in SSVGI aims is to provide an opportunity for you to explore the amazing world of technology , to innovate, to learn, to create and a place for you to realize your dreamland develop the next killer technology.</p>
       </div>
       <div class="col-md-6">
         <figure class="wow bounceInDown"> 
@@ -125,7 +128,7 @@ include('plugins/head.php');
     <div class="col-sm-6 offset-sm-6">
       <h2 class="wow bounceInLeft" data-wow-delay=".25s">CLUBS & COMMITTEES</h2>
       <hr>
-      <p class="wow bounceInRight" data-wow-delay=".25s">In Invertis University The Way Team Plays As A whole Determines It Success. You May Have The Greatest Bunch Of Individuals Stars In The World But If They Don't Play Together, The Club Won't Be Worth A dime</p>
+      <p class="wow bounceInRight" data-wow-delay=".25s">Shri Siddhi Vinayak Group of Institutions (SSVGI), aims that education is not limited to classrooms, it is a part of life; with the prime focus on maximizing the competencies, knowledge, inculcating professional ethics and values.</p>
       <a class="btn btn-lg btn-outline-danger d-inline-block text-center mx-auto wow bounceInDown" href="https://www.invertisuniversity.ac.in/">Learn More</a> 
     </div>
   </div>
