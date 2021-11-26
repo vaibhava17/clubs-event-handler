@@ -6,7 +6,7 @@
 include('plugins/session.php');
 include('plugins/head.php');
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='panache' && $_SESSION['role']!='admin' && $_SESSION['role']!='panachetm'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='kalanjali' && $_SESSION['role']!='admin' && $_SESSION['role']!='kalanjalitm'){
     header('location: 404.php');
 }
 ?>
@@ -26,14 +26,14 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='panache' && $_SESSION['role']
                     <div class="col-md-8">
                         <div class="card">
                             <div class="card-header">
-                                <h5 class="title">Panache Club Event Details</h5>
+                                <h5 class="title">Kalanjali Club Event Details</h5>
                             </div>
                             <div class="card-body">
                             	<?php
                             	include('../dbs/connect.php');
 
                                 $id=$_GET['event_id'];
-                                $sql="SELECT * from panache WHERE id='$id'";
+                                $sql="SELECT * from kalanjali WHERE id='$id'";
                                 $results=$connect->query($sql);
                                 $final=$results->fetch_assoc();
                                 ?>

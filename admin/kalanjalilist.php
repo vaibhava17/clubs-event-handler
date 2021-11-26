@@ -6,7 +6,7 @@
 include('plugins/session.php');
 include('plugins/head.php');
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='panache' && $_SESSION['role']!='admin' && $_SESSION['role']!='panachetm'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='kalanjali' && $_SESSION['role']!='admin' && $_SESSION['role']!='kalanjalitm'){
     header('location: 404.php');
 }
 ?>
@@ -24,7 +24,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='panache' && $_SESSION['role']
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            <h5 class="title">Panache Club Events List</h5>
+                            <h5 class="title">Kalanjali Club Events List</h5>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -38,7 +38,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='panache' && $_SESSION['role']
                                     <?php
                                     include('../dbs/connect.php');
 
-                                    $sql="SELECT * from panache";
+                                    $sql="SELECT * from kalanjali";
                                     $results=$connect->query($sql);
                                     while ($final=$results->fetch_assoc()) {
                                         ?>
@@ -47,17 +47,17 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='panache' && $_SESSION['role']
                                         <tr>
                                             <td><?php echo $final['name']?></td>
                                             <td class="text-right">
-                                                <a href="panacheshow.php?event_id=<?php echo $final['id']?>">
+                                                <a href="kalanjalishow.php?event_id=<?php echo $final['id']?>">
                                                     <button class="btn btn-primary">Open</button>
                                                 </a>
                                             </td>
                                             <td class="text-right">
-                                                <a href="panacheupdate.php?up_id=<?php echo $final['id'] ?>">
+                                                <a href="kalanjaliupdate.php?up_id=<?php echo $final['id'] ?>">
                                                     <button class="btn btn-primary">Update</button>
                                                 </a>
                                             </td>
                                             <td class="text-right">
-                                                <a href="panachedelete.php?del_id=<?php echo $final['id'] ?>">
+                                                <a href="kalanjalidelete.php?del_id=<?php echo $final['id'] ?>">
                                                     <button class="btn btn-primary">Delete</button>
                                                 </a>
                                             </td>

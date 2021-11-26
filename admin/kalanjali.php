@@ -6,7 +6,7 @@
 include('plugins/session.php');
 include('plugins/head.php');
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='panache' && $_SESSION['role']!='admin' && $_SESSION['role']!='panachetm'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='kalanjali' && $_SESSION['role']!='admin' && $_SESSION['role']!='kalanjalitm'){
     header('location: 404.php');
 }
 ?>
@@ -26,10 +26,10 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='panache' && $_SESSION['role']
                     <div class="col-md-8">
                         <div class="card">
                             <div class="card-header">
-                                <h5 class="title">Panache Club Event</h5>
+                                <h5 class="title">Kalanjali Club Event</h5>
                             </div>
                             <div class="card-body">
-                                <form role="form" action="panachehandler.php" method="POST" enctype="multipart/form-data">
+                                <form role="form" action="kalanjalihandler.php" method="POST" enctype="multipart/form-data">
                                     <div class=" row ">
                                         <div class="col-md-8">
                                             <div class="form-group ">
