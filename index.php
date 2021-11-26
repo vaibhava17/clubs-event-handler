@@ -8,7 +8,7 @@ include("dbs/connect.php");
 <?php
 include('plugins/head.php');
 ?>
-
+<!-- mukku -->
 <body>
   <div class="container-fluid pl-0 pr-0 bg-img clearfix parallax-window2" data-parallax="scroll" data-image-src="images/banner.jpg">
     <?php
