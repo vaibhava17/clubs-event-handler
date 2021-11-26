@@ -45,9 +45,9 @@
       </div>
       <div class="col-md-3 footer3 wow bounceInRight" data-wow-delay=".25s">
         <h5>ADDRESS</h5>
-        <p>Invertis University is a private university located in Bareilly, Uttar Pradesh, India. It is situated on Bareilly-Lucknow NH-24, </p>
+        <p> S.S.V.G.I.  is a family of 3 institutions10th Km, Bareilly - Nainital Rd, Near Dohna Railway Station, Bareilly, Uttar Pradesh 243001</p>
         <h5>PHONE</h5>
-        <p>253232323232</p>
+        <p>075994 71144</p>
         <h5>EMAIL</h5>
         <p>email@example.com</p>
         <div class="social-links">

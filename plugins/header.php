@@ -13,7 +13,7 @@
         <li class="nav-item"> <a class="nav-link" href="contact.php">Contact</a> </li>
       </ul>
       <ul class="navbar-nav ml-5">
-        <li class="nav-item"> <a class="nav-link btn btn-danger" href="https://www.invertisuniversity.ac.in/">&nbsp;Invertis University&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
+        <li class="nav-item"> <a class="nav-link btn btn-danger" href="https://www.ssvgi.org/">&nbsp;SSVGI&nbsp;&nbsp;&nbsp;&nbsp;</a> </li>
       </ul>
     </div>
   </div>
