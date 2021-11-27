@@ -21,13 +21,12 @@ if(isset($_POST['update'])){
 	$image_store="../data/kalanjali/".$image_name;
 
 	move_uploaded_file($image_tmp, $image_store);
+	
+	$sql="UPDATE kalanjali set name='$newname', date='$newdate', context='$newcontext', image='$image_path', file='$file_path' WHERE id='$newid'";
 
-$sql="UPDATE kalanjali set name='$newname', date='$newdate', context='$newcontext', image='$image_path', file='$file_path' WHERE id='$newid'";
-
-if (mysqli_query($connect,$sql)) {
-	header('location: kalanjalilist.php');
-}else{
-	header('location: dashboard.php');
+	if (mysqli_query($connect,$sql)) {
+		header('location: kalanjalilist.php');
+	}else{
+		header('location: dashboard.php');
+	}
 }
-}
-?>
