@@ -7,7 +7,7 @@ include('plugins/session.php');
 include('plugins/head.php');
 
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='rockon' && $_SESSION['role']!='admin'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='oasis' && $_SESSION['role']!='admin'){
     header('location: 404.php');
 }
 ?>
@@ -55,7 +55,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='rockon' && $_SESSION['role']!
                                         </thead>
                                     <?php
                                     include('../dbs/connect.php');
-                                    $sql="SELECT * from applyrockon";
+                                    $sql="SELECT * from applyoasis";
                                     $results=$connect->query($sql);
                                     while ($final=$results->fetch_assoc()) { 
                                     ?>
