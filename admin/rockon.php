@@ -26,7 +26,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='oasis' && $_SESSION['role']!=
                     <div class="col-md-8">
                         <div class="card">
                             <div class="card-header">
-                                <h5 class="title">Rock-On Club Event</h5>
+                                <h5 class="title">Oasis Club Event</h5>
                             </div>
                             <div class="card-body">
                                 <form role="form" action="oasishandler.php" method="POST" enctype="multipart/form-data">
