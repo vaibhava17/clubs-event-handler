@@ -5,7 +5,7 @@
 include('plugins/session.php');
 include('plugins/head.php');
 
-if (isset($_SESSION['role']) && $_SESSION['role'] != 'mfactor' && $_SESSION['role'] != 'admin' && $_SESSION['role'] != 'mfactortm') {
+if (isset($_SESSION['role']) && $_SESSION['role'] != 'rotaract' && $_SESSION['role'] != 'admin' && $_SESSION['role'] != 'rotaracttm') {
     header('location: 404.php');
 }
 ?>
@@ -24,13 +24,13 @@ if (isset($_SESSION['role']) && $_SESSION['role'] != 'mfactor' && $_SESSION['rol
                 <div class="col-md-8">
                     <div class="card">
                         <div class="card-header">
-                            <h5 class="title">M-Factor Club Event Details</h5>
+                            <h5 class="title">Rotaract Club Event Details</h5>
                         </div>
                         <div class="card-body">
                             <?php
                             include('../dbs/connect.php');
                             $id = $_GET['event_id'];
-                            $sql = "SELECT * from mfactor WHERE id='$id'";
+                            $sql = "SELECT * from rotaract WHERE id='$id'";
                             $results = $connect->query($sql);
                             $final = $results->fetch_assoc();
                             ?>

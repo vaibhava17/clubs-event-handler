@@ -6,7 +6,7 @@
 include('plugins/session.php');
 include('plugins/head.php');
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='mfactor' && $_SESSION['role']!='admin' && $_SESSION['role']!='mfactortm'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='rotaract' && $_SESSION['role']!='admin' && $_SESSION['role']!='rotaracttm'){
     header('location: 404.php');
 }
 ?>
@@ -25,22 +25,33 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='mfactor' && $_SESSION['role']
                     </div>
                     <div class="col-md-8">
                         <div class="card">
+
                             <div class="card-header">
-                                <h5 class="title">M-Factor Club Event</h5>
+                                <h5 class="title">Event Update</h5>
                             </div>
                             <div class="card-body">
-                                <form role="form" action="mfactorhandler.php" method="POST" enctype="multipart/form-data">
+                                <form role="form" action="rotaractupdatehandler.php" method="POST" enctype="multipart/form-data">
+                                    <?php
+                                    $newid=$_GET['up_id'];
+
+                                    include('../dbs/connect.php');
+
+                                    $sql="SELECT * from rotaract WHERE id='$newid'";
+                                    $results=$connect->query($sql);
+                                    $final=$results->fetch_assoc();
+
+                                    ?>
                                     <div class=" row ">
                                         <div class="col-md-8">
                                             <div class="form-group ">
                                                 <label>Event Name</label>
-                                                <input type="text" class="form-control" id="name" placeholder="Enter Event Name" name="name">
+                                                <input type="text" class="form-control" id="name" placeholder="Enter Event Name" value="<?php echo $final['name'] ?>" name="name">
                                             </div>
                                         </div>
                                         <div class="col-md-4 pl-1 ">
                                             <div class="form-group ">
                                                 <label>Date</label>
-                                                <input type="date" class="form-control " id="date" placeholder="Enter Event Date" name="date">
+                                                <input type="date" class="form-control " id="date" placeholder="Enter Event Date" value="<?php echo $final['date'] ?>" name="date">
                                             </div>
                                         </div>
                                     </div>
@@ -49,7 +60,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='mfactor' && $_SESSION['role']
                                         <div class="col-md-12 ">
                                             <div class="form-group ">
                                                 <label>Context</label>
-                                                <input type="text" class="form-control " id="context" placeholder="Enter Description" name="context">
+                                                <input type="text" class="form-control " id="context" placeholder="Enter Description" value="<?php echo $final['context'] ?>" name="context">
                                             </div>
                                         </div>
                                     </div>
@@ -57,18 +68,19 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='mfactor' && $_SESSION['role']
                                         <div class="col-md-4 pr-1 ">
                                             <div class="form-group ">
                                                 <label>Image</label>
-                                                <input type="file" class="form-control " id="image" placeholder="Select Image" name="image">
+                                                <input type="file" class="form-control " id="image" placeholder="Select Image" value="<?php echo $final['image'] ?>" name="image">
                                             </div>
                                         </div>
                                         <div class="col-md-4 pr-1 ">
                                             <div class="form-group ">
                                                 <label>File</label>
-                                                <input type="file" class="form-control " id="file" placeholder="Select File" name="file">
+                                                <input type="file" class="form-control " id="file" placeholder="Select File" value="<?php echo $final['file'] ?>" name="file">
                                             </div>
                                         </div>
                                     </div>
                                     <div>
-                                        <button type="submit" class="btn btn-primary ">Submit</button>
+                                        <input type="hidden" value="<?php echo $final['id'] ?>" name="form_id">
+                                        <button type="submit" class="btn btn-primary" name="update">Update</button>
                                     </div>
                                 </form>
                             </div>

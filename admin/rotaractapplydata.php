@@ -7,7 +7,7 @@ include('plugins/session.php');
 include('plugins/head.php');
 
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='mfactor' && $_SESSION['role']!='admin'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='rotaract' && $_SESSION['role']!='admin'){
     header('location: 404.php');
 }
 ?>
@@ -25,7 +25,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='mfactor' && $_SESSION['role']
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            <h5 class="title">M-Factor Club Applications</h5>
+                            <h5 class="title">Rotaract Club Applications</h5>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -55,7 +55,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='mfactor' && $_SESSION['role']
                                         </thead>
                                     <?php
                                     include('../dbs/connect.php');
-                                    $sql="SELECT * from applymfactor";
+                                    $sql="SELECT * from applyrotaract";
                                     $results=$connect->query($sql);
                                     while ($final=$results->fetch_assoc()) { 
                                     ?>
