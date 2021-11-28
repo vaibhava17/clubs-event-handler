@@ -2,9 +2,9 @@
 include('../dbs/connect.php');
 $newid=$_GET['del_id'];
 
-$sql="DELETE from stride WHERE id='$newid'";
+$sql="DELETE from gladiators WHERE id='$newid'";
 if (mysqli_query($connect,$sql)) {
-    header('location: stride.php');
+    header('location: gladiators.php');
 }else{
     echo "Not Deleted";
 }

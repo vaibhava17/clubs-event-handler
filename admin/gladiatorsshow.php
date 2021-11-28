@@ -6,7 +6,7 @@
 include('plugins/session.php');
 include('plugins/head.php');
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='stride' && $_SESSION['role']!='admin' && $_SESSION['role']!='stridetm'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='gladiators' && $_SESSION['role']!='admin' && $_SESSION['role']!='gladiatorstm'){
     header('location: 404.php');
 }
 ?>
@@ -26,14 +26,14 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='stride' && $_SESSION['role']!
                     <div class="col-md-8">
                         <div class="card">
                             <div class="card-header">
-                                <h5 class="title">Stride Club Event Details</h5>
+                                <h5 class="title">Gladiators Club Event Details</h5>
                             </div>
                             <div class="card-body">
                                 <?php
                                 include('../dbs/connect.php');
 
                                 $id=$_GET['event_id'];
-                                $sql="SELECT * from stride WHERE id='$id'";
+                                $sql="SELECT * from gladiators WHERE id='$id'";
                                 $results=$connect->query($sql);
                                 $final=$results->fetch_assoc();
                                 ?>

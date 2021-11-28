@@ -7,7 +7,7 @@ include('plugins/session.php');
 include('plugins/head.php');
 
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='stride' && $_SESSION['role']!='admin'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='gladiators' && $_SESSION['role']!='admin'){
     header('location: 404.php');
 }
 ?>
@@ -25,7 +25,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='stride' && $_SESSION['role']!
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            <h5 class="title">Stride Club Applications</h5>
+                            <h5 class="title">Gladiators Club Applications</h5>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -55,7 +55,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='stride' && $_SESSION['role']!
                                         </thead>
                                     <?php
                                     include('../dbs/connect.php');
-                                    $sql="SELECT * from applystride";
+                                    $sql="SELECT * from applygladiators";
                                     $results=$connect->query($sql);
                                     while ($final=$results->fetch_assoc()) { 
                                     ?>

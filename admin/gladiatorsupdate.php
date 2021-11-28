@@ -6,7 +6,7 @@
 include('plugins/session.php');
 include('plugins/head.php');
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='stride' && $_SESSION['role']!='admin' && $_SESSION['role']!='stridetm'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='gladiators' && $_SESSION['role']!='admin' && $_SESSION['role']!='gladiatorstm'){
     header('location: 404.php');
 }
 ?>
@@ -30,13 +30,13 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='stride' && $_SESSION['role']!
                                 <h5 class="title">Event Update</h5>
                             </div>
                             <div class="card-body">
-                                <form role="form" action="strideupdatehandler.php" method="POST" enctype="multipart/form-data">
+                                <form role="form" action="gladiatorsupdatehandler.php" method="POST" enctype="multipart/form-data">
                                     <?php
                                     $newid=$_GET['up_id'];
 
                                     include('../dbs/connect.php');
 
-                                    $sql="SELECT * from stride WHERE id='$newid'";
+                                    $sql="SELECT * from gladiators WHERE id='$newid'";
                                     $results=$connect->query($sql);
                                     $final=$results->fetch_assoc();
 
