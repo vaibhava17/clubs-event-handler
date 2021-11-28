@@ -57,30 +57,30 @@
           </a>
         </li>
         <div class="logo">
-          <a href="gadiators.php" class="simple-text logo-normal">
-            GADIATORS
+          <a href="gladiators.php" class="simple-text logo-normal">
+            GLADIATORS
           </a>
         </div>
         <li>
-          <a href="gadiators.php">
+          <a href="gladiators.php">
             <i class="now-ui-icons ui-1_simple-add"></i>
             <p>Add Event</p>
           </a>
         </li>
         <li>
-          <a href="gadiatorslist.php">
+          <a href="gladiatorslist.php">
             <i class="now-ui-icons files_paper"></i>
             <p>Events List</p>
           </a>
         </li>
         <li>
-          <a href="gadiatorsenroll.php">
+          <a href="gladiatorsenroll.php">
             <i class="now-ui-icons design_bullet-list-67"></i>
             <p>Event Enrollments</p>
           </a>
         </li>
         <li>
-          <a href="gadiatorsapplydata.php">
+          <a href="gladiatorsapplydata.php">
             <i class="now-ui-icons gestures_tap-01"></i>
             <p>Applications</p>
           </a>
@@ -209,8 +209,8 @@
       </div>
     </nav>
     
-    <!-- Gadiators Leader-->
-  <?php } elseif ($_SESSION['role'] == 'gadiators') { ?>
+    <!-- gladiators Leader-->
+  <?php } elseif ($_SESSION['role'] == 'gladiators') { ?>
     <div class="sidebar" data-color="orange">
       <div class="logo">
         <a href="#.php" class="simple-text logo-normal">
@@ -220,36 +220,36 @@
       <div class="sidebar-wrapper" id="sidebar-wrapper">
         <ul class="nav">
           <div class="logo">
-            <a href="../gadiators.php" class="simple-text logo-normal">
-              Gadiators
+            <a href="../gladiators.php" class="simple-text logo-normal">
+              Gladiators
             </a>
           </div>
           <li>
-            <a href="gadiatorsmemberlist.php">
+            <a href="gladiatorsmemberlist.php">
               <i class="now-ui-icons business_badge"></i>
               <p>Member List</p>
             </a>
           </li>
           <li>
-            <a href="gadiators.php">
+            <a href="gladiators.php">
               <i class="now-ui-icons ui-1_simple-add"></i>
               <p>Add Event</p>
             </a>
           </li>
           <li>
-            <a href="gadiatorslist.php">
+            <a href="gladiatorslist.php">
               <i class="now-ui-icons files_paper"></i>
               <p>Events List</p>
             </a>
           </li>
           <li>
-            <a href="gadiatorsenroll.php">
+            <a href="gladiatorsenroll.php">
               <i class="now-ui-icons design_bullet-list-67"></i>
               <p>Event Enrollments</p>
             </a>
           </li>
           <li>
-            <a href="gadiatorsapplydata.php">
+            <a href="gladiatorsapplydata.php">
               <i class="now-ui-icons gestures_tap-01"></i>
               <p>Applications</p>
             </a>
@@ -275,7 +275,7 @@
                 <span class="navbar-toggler-bar bar3"></span>
               </button>
             </div>
-            <a class="navbar-brand">Welcome to Gadiators Club</a>
+            <a class="navbar-brand">Welcome to Gladiators Club</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-#" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar navbar-kebab"></span>
@@ -296,8 +296,8 @@
           </div>
         </div>
       </nav>
-      <!-- Gadiators Team Members -->
-    <?php } elseif ($_SESSION['role'] == 'gadiatorstm') { ?>
+      <!-- gladiators Team Members -->
+    <?php } elseif ($_SESSION['role'] == 'gladiatorstm') { ?>
       <div class="sidebar" data-color="orange">
         <div class="logo">
           <a href="#.php" class="simple-text logo-normal">
@@ -307,24 +307,24 @@
         <div class="sidebar-wrapper" id="sidebar-wrapper">
           <ul class="nav">
             <div class="logo">
-              <a href="../gadiators.php" class="simple-text logo-normal">
-                Gadiators
+              <a href="../gladiators.php" class="simple-text logo-normal">
+                Gladiators
               </a>
             </div>
             <li>
-              <a href="gadiators.php">
+              <a href="gladiators.php">
                 <i class="now-ui-icons ui-1_simple-add"></i>
                 <p>Add Event</p>
               </a>
             </li>
             <li>
-              <a href="gadiatorslist.php">
+              <a href="gladiatorslist.php">
                 <i class="now-ui-icons files_paper"></i>
                 <p>Events List</p>
               </a>
             </li>
             <li>
-              <a href="gadiatorsenroll.php">
+              <a href="gladiatorsenroll.php">
                 <i class="now-ui-icons design_bullet-list-67"></i>
                 <p>Event Enrollments</p>
               </a>
@@ -350,7 +350,7 @@
                   <span class="navbar-toggler-bar bar3"></span>
                 </button>
               </div>
-              <a class="navbar-brand">Welcome to Gadiators Club</a>
+              <a class="navbar-brand">Welcome to Gladiators Club</a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-bar navbar-kebab"></span>
