@@ -6,7 +6,7 @@
 include('plugins/session.php');
 include('plugins/head.php');
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='rockon' && $_SESSION['role']!='admin' && $_SESSION['role']!='rockontm'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='oasis' && $_SESSION['role']!='admin' && $_SESSION['role']!='oasistm'){
     header('location: 404.php');
 }
 ?>
@@ -30,13 +30,13 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='rockon' && $_SESSION['role']!
                                 <h5 class="title">Event Update</h5>
                             </div>
                             <div class="card-body">
-                                <form role="form" action="rockonupdatehandler.php" method="POST" enctype="multipart/form-data">
+                                <form role="form" action="oasisupdatehandler.php" method="POST" enctype="multipart/form-data">
                                     <?php
                                     $newid=$_GET['up_id'];
 
                                     include('../dbs/connect.php');
 
-                                    $sql="SELECT * from rockon WHERE id='$newid'";
+                                    $sql="SELECT * from oasis WHERE id='$newid'";
                                     $results=$connect->query($sql);
                                     $final=$results->fetch_assoc();
 

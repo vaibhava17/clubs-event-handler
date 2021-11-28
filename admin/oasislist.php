@@ -6,7 +6,7 @@
 include('plugins/session.php');
 include('plugins/head.php');
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='rockon' && $_SESSION['role']!='admin' && $_SESSION['role']!='rockontm'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='oasis' && $_SESSION['role']!='admin' && $_SESSION['role']!='oasistm'){
     header('location: 404.php');
 }
 ?>
@@ -24,7 +24,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='rockon' && $_SESSION['role']!
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            <h5 class="title">Rock-On Club Events List</h5>
+                            <h5 class="title">Oasis Club Events List</h5>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -38,7 +38,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='rockon' && $_SESSION['role']!
                                     <?php
                                     include('../dbs/connect.php');
 
-                                    $sql="SELECT * from rockon";
+                                    $sql="SELECT * from oasis";
                                     $results=$connect->query($sql);
                                     while ($final=$results->fetch_assoc()) {
                                         ?>
@@ -47,17 +47,17 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='rockon' && $_SESSION['role']!
                                         <tr>
                                             <td><?php echo $final['name']?></td>
                                             <td class="text-right">
-                                                <a href="rockonshow.php?event_id=<?php echo $final['id']?>">
+                                                <a href="oasisshow.php?event_id=<?php echo $final['id']?>">
                                                     <button class="btn btn-primary">Open</button>
                                                 </a>
                                             </td>
                                             <td class="text-right">
-                                                <a href="rockonupdate.php?up_id=<?php echo $final['id'] ?>">
+                                                <a href="oasisupdate.php?up_id=<?php echo $final['id'] ?>">
                                                     <button class="btn btn-primary">Update</button>
                                                 </a>
                                             </td>
                                             <td class="text-right">
-                                                <a href="rockondelete.php?del_id=<?php echo $final['id'] ?>">
+                                                <a href="oasisdelete.php?del_id=<?php echo $final['id'] ?>">
                                                     <button class="btn btn-primary">Delete</button>
                                                 </a>
                                             </td>

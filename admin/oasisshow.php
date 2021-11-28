@@ -6,7 +6,7 @@
 include('plugins/session.php');
 include('plugins/head.php');
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='rockon' && $_SESSION['role']!='admin' && $_SESSION['role']!='rockontm'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='oasis' && $_SESSION['role']!='admin' && $_SESSION['role']!='oasistm'){
     header('location: 404.php');
 }
 ?>
@@ -26,14 +26,14 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='rockon' && $_SESSION['role']!
                     <div class="col-md-8">
                         <div class="card">
                             <div class="card-header">
-                                <h5 class="title">Rock-On Club Event Details</h5>
+                                <h5 class="title">Oasis Club Event Details</h5>
                             </div>
                             <div class="card-body">
                                 <?php
                                 include('../dbs/connect.php');
 
                                 $id=$_GET['event_id'];
-                                $sql="SELECT * from rockon WHERE id='$id'";
+                                $sql="SELECT * from oasis WHERE id='$id'";
                                 $results=$connect->query($sql);
                                 $final=$results->fetch_assoc();
                                 ?>

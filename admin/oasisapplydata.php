@@ -25,7 +25,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='oasis' && $_SESSION['role']!=
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            <h5 class="title">Rock-On Club Applications</h5>
+                            <h5 class="title">Oasis Club Applications</h5>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">

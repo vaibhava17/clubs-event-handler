@@ -7,7 +7,7 @@ include('plugins/session.php');
 include('plugins/head.php');
 
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='rockon' && $_SESSION['role']!='admin'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='oasis' && $_SESSION['role']!='admin' && $_SESSION['role']!='oasistm'){
     header('location: 404.php');
 }
 ?>
@@ -25,47 +25,39 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='rockon' && $_SESSION['role']!
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            <h5 class="title">Rock-On Club Members</h5>
+                            <h5 class="title">Oasis Club Event Enrollments</h5>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table">
                                     <thead class=" text-primary">
-                                            <th>Username</th>
                                             <th>Name</th>
-                                            <th>Post</th>
-                                            <th class="text-right">Update</th>
+                                            <th>Event Name</th>
+                                            <th>Course</th>
+                                            <th>Number</th>
+                                            <th>Email</th>
+                                            <th class="text-right">Contact</th>
                                         </thead>
                                     <?php
                                     include('../dbs/connect.php');
-                                    $sql="SELECT * from teammember";
+                                    $sql="SELECT * from oasisenroll";
                                     $results=$connect->query($sql);
                                     while ($final=$results->fetch_assoc()) { 
-                                        if($final['role']=='rockontm'){?>
+                                    ?>
                                         
                                         <tbody>
                                             <tr>
-                                                <td><?php
-                                                if($final['role']=='rockontm'){?>
-                                                    <?php echo $final['username'] ?>
-                                                <?php }
-                                                ?></td>
-                                                <td><?php
-                                                if($final['role']=='rockontm'){?>
-                                                    <?php echo $final['name'] ?>
-                                                <?php }
-                                                ?></td>
-                                                <td><?php
-                                                if($final['role']=='rockontm'){?>
-                                                    <?php echo $final['post'] ?>
-                                                <?php }
-                                                ?></td>
+                                                <td><?php echo $final['name'] ?></td>
+                                                <td><?php echo $final['eventname'] ?></td>
+                                                <td><?php echo $final['course'] ?></td>
+                                                <td><?php echo $final['number'] ?></td>
+                                              <td><?php echo $final['email'] ?></td>
                                                 <td class="text-right">
-                                                    <a href="memberupdate.php?up_id=<?php echo $final['id'] ?>"><button class="btn btn-primary">Update</button></a>
+                                                    <a href="mailto:<?php echo $final['email'] ?>"><button class="btn btn-primary">Contact</button></a>
                                                 </td>
+
                                             </tr>
                                         </tbody>
-                                        <?php } ?>
                                     <?php } ?>
                                 </table>
                             </div>
