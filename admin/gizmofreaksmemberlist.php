@@ -7,7 +7,7 @@ include('plugins/session.php');
 include('plugins/head.php');
 
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='itech' && $_SESSION['role']!='admin'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='gizmofreaks' && $_SESSION['role']!='admin'){
     header('location: 404.php');
 }
 ?>
@@ -25,7 +25,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='itech' && $_SESSION['role']!=
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            <h5 class="title">I-Tech Club Members</h5>
+                            <h5 class="title">Gizmofreaks Club Members</h5>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -41,22 +41,22 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='itech' && $_SESSION['role']!=
                                     $sql="SELECT * from teammember";
                                     $results=$connect->query($sql);
                                     while ($final=$results->fetch_assoc()) { 
-                                        if($final['role']=='itechtm'){?>
+                                        if($final['role']=='gizmofreakstm'){?>
                                        
                                         <tbody>
                                             <tr>
                                                 <td><?php
-                                                if($final['role']=='itechtm'){?>
+                                                if($final['role']=='gizmofreakstm'){?>
                                                     <?php echo $final['username'] ?>
                                                 <?php }
                                                 ?></td>
                                                 <td><?php
-                                                if($final['role']=='itechtm'){?>
+                                                if($final['role']=='gizmofreakstm'){?>
                                                     <?php echo $final['name'] ?>
                                                 <?php }
                                                 ?></td>
                                                 <td><?php
-                                                if($final['role']=='itechtm'){?>
+                                                if($final['role']=='gizmofreakstm'){?>
                                                     <?php echo $final['post'] ?>
                                                 <?php }
                                                 ?></td>

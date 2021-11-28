@@ -6,7 +6,7 @@
 include('plugins/session.php');
 include('plugins/head.php');
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='admin' && $_SESSION['role']!='images' && $_SESSION['role']!='itech' && $_SESSION['role']!='mfactor' && $_SESSION['role']!='panache' && $_SESSION['role']!='responsible' && $_SESSION['role']!='rockon' && $_SESSION['role']!='stride'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='admin' && $_SESSION['role']!='images' && $_SESSION['role']!='gizmofreaks' && $_SESSION['role']!='mfactor' && $_SESSION['role']!='panache' && $_SESSION['role']!='responsible' && $_SESSION['role']!='rockon' && $_SESSION['role']!='stride'){
     header('location: 404.php');
 }
 ?>

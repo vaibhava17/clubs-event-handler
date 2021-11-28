@@ -6,7 +6,7 @@
 include('plugins/session.php');
 include('plugins/head.php');
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='itech' && $_SESSION['role']!='admin' && $_SESSION['role']!='itechtm'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='gizmofreaks' && $_SESSION['role']!='admin' && $_SESSION['role']!='gizmofreakstm'){
     header('location: 404.php');
 }
 ?>
@@ -25,33 +25,22 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='itech' && $_SESSION['role']!=
                     </div>
                     <div class="col-md-8">
                         <div class="card">
-
                             <div class="card-header">
-                                <h5 class="title">Events</h5>
+                                <h5 class="title">Gizmofreaks Club Event Post</h5>
                             </div>
                             <div class="card-body">
-                                <form role="form" action="itechupdatehandler.php" method="POST" enctype="multipart/form-data">
-                                    <?php
-                                    $newid=$_GET['up_id'];
-
-                                    include('../dbs/connect.php');
-
-                                    $sql="SELECT * from itech WHERE id='$newid'";
-                                    $results=$connect->query($sql);
-                                    $final=$results->fetch_assoc();
-
-                                    ?>
+                                <form role="form" action="gizmofreakshandler.php" method="POST" enctype="multipart/form-data">
                                     <div class=" row ">
                                         <div class="col-md-8">
                                             <div class="form-group ">
                                                 <label>Event Name</label>
-                                                <input type="text" class="form-control" id="name" placeholder="Enter Event Name" value="<?php echo $final['name'] ?>" name="name">
+                                                <input type="text" class="form-control" id="name" placeholder="Enter Event Name" name="name">
                                             </div>
                                         </div>
                                         <div class="col-md-4 pl-1 ">
                                             <div class="form-group ">
                                                 <label>Date</label>
-                                                <input type="date" class="form-control " id="date" placeholder="Enter Event Date" value="<?php echo $final['date'] ?>" name="date">
+                                                <input type="date" class="form-control " id="date" placeholder="Enter Event Date" name="date">
                                             </div>
                                         </div>
                                     </div>
@@ -60,7 +49,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='itech' && $_SESSION['role']!=
                                         <div class="col-md-12 ">
                                             <div class="form-group ">
                                                 <label>Context</label>
-                                                <input type="text" class="form-control " id="context" placeholder="Enter Description" value="<?php echo $final['context'] ?>" name="context">
+                                                <input type="text" class="form-control " id="context" placeholder="Enter Description" name="context">
                                             </div>
                                         </div>
                                     </div>
@@ -68,19 +57,18 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='itech' && $_SESSION['role']!=
                                         <div class="col-md-4 pr-1 ">
                                             <div class="form-group ">
                                                 <label>Image</label>
-                                                <input type="file" class="form-control " id="image" placeholder="Select Image" value="<?php echo $final['image'] ?>" name="image">
+                                                <input type="file" class="form-control " id="image" placeholder="Select Image" name="image">
                                             </div>
                                         </div>
                                         <div class="col-md-4 pr-1 ">
                                             <div class="form-group ">
                                                 <label>File</label>
-                                                <input type="file" class="form-control " id="file" placeholder="Select File" value="<?php echo $final['file'] ?>" name="file">
+                                                <input type="file" class="form-control " id="file" placeholder="Select File" name="file">
                                             </div>
                                         </div>
                                     </div>
                                     <div>
-                                        <input type="hidden" value="<?php echo $final['id'] ?>" name="form_id">
-                                        <button type="submit" class="btn btn-primary" name="update">Update</button>
+                                        <button type="submit" class="btn btn-primary ">Submit</button>
                                     </div>
                                 </form>
                             </div>

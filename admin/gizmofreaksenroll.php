@@ -7,7 +7,7 @@ include('plugins/session.php');
 include('plugins/head.php');
 
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='itech' && $_SESSION['role']!='admin'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='gizmofreaks' && $_SESSION['role']!='admin' && $_SESSION['role']!='gizmofreakstm'){
     header('location: 404.php');
 }
 ?>
@@ -25,51 +25,38 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='itech' && $_SESSION['role']!=
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            <h5 class="title">I-Tech Club Applications</h5>
+                            <h5 class="title">Gizmofreaks Club Event Enrollments</h5>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table">
                                     <thead class=" text-primary">
-                                          <th>
-                                            Name
-                                          </th>
-                                          <th>
-                                            Student ID
-                                          </th>
-                                          <th>
-                                            Course
-                                          </th>
-                                          <th>
-                                            Post
-                                          </th>
-                                          <th >
-                                            Email ID
-                                          </th>
-
-                                              <th>Date</th>
-                                          <th class="text-right">
-                                            Resume
-                                          </th>
+                                            <th>Name</th>
+                                            <th>Event Name</th>
+                                            <th>Course</th>
+                                            <th>Number</th>
+                                            <th>Email</th>
+                                            <th class="text-right">Contact</th>
                                         </thead>
                                     <?php
                                     include('../dbs/connect.php');
-                                    $sql="SELECT * from applyitech";
+                                    $sql="SELECT * from gizmofreaksenroll";
                                     $results=$connect->query($sql);
                                     while ($final=$results->fetch_assoc()) { 
                                     ?>
+                                        
                                         <tbody>
                                             <tr>
                                                 <td><?php echo $final['name'] ?></td>
-                                                <td><?php echo $final['student_id'] ?></td>
+                                                <td><?php echo $final['eventname'] ?></td>
                                                 <td><?php echo $final['course'] ?></td>
-                                                <td><?php echo $final['v_post'] ?></td>
+                                                <td><?php echo $final['number'] ?></td>
                                                 <td><?php echo $final['email'] ?></td>
-                                                <td><?php echo $final['date'] ?></td>
-                                            <td class="text-right">
-                                              <a href="../<?php echo $final['file'] ?>"><button class="btn btn-dark">resume</button></a>
-                                            </td>
-                                          </tr>
+                                                <td class="text-right">
+                                                    <a href="mailto:<?php echo $final['email'] ?>"><button class="btn btn-primary">Contact</button></a>
+                                                </td>
+
+                                            </tr>
                                         </tbody>
                                     <?php } ?>
                                 </table>

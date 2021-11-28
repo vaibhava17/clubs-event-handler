@@ -6,7 +6,7 @@
 include('plugins/session.php');
 include('plugins/head.php');
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='itech' && $_SESSION['role']!='admin' && $_SESSION['role']!='itechtm'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='gizmofreaks' && $_SESSION['role']!='admin' && $_SESSION['role']!='gizmofreakstm'){
     header('location: 404.php');
 }
 ?>
@@ -24,7 +24,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='itech' && $_SESSION['role']!=
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            <h5 class="title">I-Tech Club Events List</h5>
+                            <h5 class="title">Gizmofreaks Club Events List</h5>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -38,7 +38,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='itech' && $_SESSION['role']!=
                                     <?php
                                     include('../dbs/connect.php');
 
-                                    $sql="SELECT * from itech";
+                                    $sql="SELECT * from gizmofreaks";
                                     $results=$connect->query($sql);
                                     while ($final=$results->fetch_assoc()) {
                                         ?>
@@ -47,17 +47,17 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='itech' && $_SESSION['role']!=
                                         <tr>
                                             <td><?php echo $final['name']?></td>
                                             <td class="text-right">
-                                                <a href="itechshow.php?event_id=<?php echo $final['id']?>">
+                                                <a href="gizmofreaksshow.php?event_id=<?php echo $final['id']?>">
                                                     <button class="btn btn-primary">Open</button>
                                                 </a>
                                             </td>
                                             <td class="text-right">
-                                                <a href="itechupdate.php?up_id=<?php echo $final['id'] ?>">
+                                                <a href="gizmofreaksupdate.php?up_id=<?php echo $final['id'] ?>">
                                                     <button class="btn btn-primary">Update</button>
                                                 </a>
                                             </td>
                                             <td class="text-right">
-                                                <a href="itechdelete.php?del_id=<?php echo $final['id'] ?>">
+                                                <a href="izmofreaksdelete.php?del_id=<?php echo $final['id'] ?>">
                                                     <button class="btn btn-primary">Delete</button>
                                                 </a>
                                             </td>
