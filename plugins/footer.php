@@ -11,7 +11,7 @@
         
         <div class="d-flex flex-wrap align-content-center"> <a href="#"><img src="images/ssvgi/ssvgi-logo.jpg" alt="logo" style="height: 50px;"/></a>
           <h2>SSVGI Activity Clubs</h2>
-          <p>&copy; 2021 SSVGI. All rights reserved.<br> Design by <a href="https://webpaage.in/" target="_blank">Vaibhav</a>.</p>
+          <p>&copy; 2021 SSVGI. All rights reserved.<br> Design by <a href="https://webpaage.in/" target="_blank">Vaibhav, Smita, Muskan and Jishan </a>.</p>
         </div>
       </div>
       <div class="col-md-6 footer2 wow bounceInUp" data-wow-delay=".25s" id="contact">
