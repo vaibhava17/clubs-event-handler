@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-md navbar-dark" style="background-color: black;">
+<nav class="navbar navbar-expand-md navbar-dark" style="background-color: purple;">
   <div class="container"> 
     <a class="navbar-brand mr-auto" href="index.php"><img src="images/ssvgi/ssvgi-logo.jpg" alt="ssvgi" style="height: 50px;"></a> 
-    <h5 style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SSVGI Activity CLubs</h5>
+    <h5 style="color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SSVGI Activity Clubs</h5>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>

@@ -93,7 +93,7 @@ a, a:hover {
 }
 
 .fh5co-network, .fh5co-about-us {
-  background: black;
+  background: white !important;
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -133,17 +133,17 @@ a, a:hover {
   background-position: center;
 }
 .fh5co-about-us p {
-  color: #fff;
+  color: purple;
   font-family: 'Lato', sans-serif;
   font-weight: normal;
 }
 .fh5co-about-us hr {
-  border-color: #fff;
+  border-color: purple;
   margin-left: 50px;
   margin-top: 5px;
 }
 .fh5co-about-us a {
-  color: #fff !important;
+  color: purple !important;
   border-color: #4e2b0d;
   border-radius: 0;
   min-width: 150px;
