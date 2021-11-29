@@ -6,7 +6,7 @@
 include('plugins/session.php');
 include('plugins/head.php');
 
-if(isset($_SESSION['role']) && $_SESSION['role']!='admin' && $_SESSION['role']!='images' && $_SESSION['role']!='gizmofreaks' && $_SESSION['role']!='mfactor' && $_SESSION['role']!='panache' && $_SESSION['role']!='responsible' && $_SESSION['role']!='rockon' && $_SESSION['role']!='stride'){
+if(isset($_SESSION['role']) && $_SESSION['role']!='admin' && $_SESSION['role']!='images' && $_SESSION['role']!='gizmofreaks' && $_SESSION['role']!='rotaract' && $_SESSION['role']!='kalanjali' && $_SESSION['role']!='oasis' && $_SESSION['role']!='gladiators'){
     header('location: 404.php');
 }
 ?>
@@ -51,7 +51,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='admin' && $_SESSION['role']!=
                                         <div class="col-md-4 ">
                                             <div class="form-group ">
                                                 <label>Password</label>
-                                                <input type="text" class="form-control " id="password" placeholder="Enter New Password"  name="password">
+                                                <input type="text" class="form-control" required id="password" placeholder="Enter New Password"  name="password">
                                             </div>
                                         </div>
                                     </div>
@@ -59,13 +59,13 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='admin' && $_SESSION['role']!=
                                         <div class="col-md-4 ">
                                             <div class="form-group ">
                                                 <label>Full Name</label>
-                                                <input type="text" class="form-control"  id="username" placeholder="Enter Name" name="name">
+                                                <input type="text" class="form-control" required id="username" placeholder="Enter Name" name="name">
                                             </div>
                                         </div>
                                         <div class="col-md-4 ">
                                             <div class="form-group ">
-                                                <label>Post</label>
-                                                <input type="text" class="form-control " disabled="" id="password" value="<?php echo $final['post'] ?>" name="post">
+                                                <label>Department</label>
+                                                <input type="text" class="form-control" required id="password" placeholder="Department" name="post">
                                             </div>
                                         </div>
                                     </div>
@@ -73,7 +73,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='admin' && $_SESSION['role']!=
                                         <div class="col-md-12">
                                             <div class="form-group ">
                                                 <label>Select New Profile Picture</label>
-                                                <input type="file" class="form-control " id="image" placeholder="Select Image" name="image">
+                                                <input type="file" class="form-control" required id="image" placeholder="Select Image" name="image">
                                             </div>
                                         </div>
                                     </div>

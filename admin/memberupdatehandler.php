@@ -4,6 +4,7 @@ if(isset($_POST['update'])){
 	$newid=$_POST['form_id'];
 	$newpassword=$_POST['password'];
 	$newname=$_POST['name'];
+	$newdepartment=$_POST['post'];
 
 	$target="../data/team/";
 	$image_path=$target.basename($_FILES['image']['name']);
@@ -13,7 +14,7 @@ if(isset($_POST['update'])){
 
 	move_uploaded_file($image_tmp, $image_store);
 
-$sql="UPDATE teammember set name='$newname', password='$newpassword', image='$image_path' WHERE id='$newid'";
+$sql="UPDATE teammember set name='$newname', password='$newpassword', image='$image_path', post='$newdepartment' WHERE id='$newid'";
 
 if (mysqli_query($connect,$sql)) {
 	header('location: successful.php');

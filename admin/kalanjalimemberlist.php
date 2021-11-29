@@ -31,7 +31,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] != 'kalanjali' && $_SESSION['r
                                     <thead class=" text-primary">
                                         <th>Username</th>
                                         <th>Name</th>
-                                        <th>Post</th>
+                                        <th>Department</th>
                                         <th class="text-right">Update</th>
                                     </thead>
                                     <?php

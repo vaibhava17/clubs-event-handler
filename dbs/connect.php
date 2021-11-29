@@ -1,11 +1,7 @@
 <?php
-
     $host="localhost";
     $user="root";
     $password="";
-    $dbname="abhiruchi";
-
+    $dbname="ssvgi_ceh";
     $connect=mysqli_connect($host,$user,$password,$dbname);
-
-
 ?>

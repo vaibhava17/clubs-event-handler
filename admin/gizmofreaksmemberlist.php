@@ -33,7 +33,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='gizmofreaks' && $_SESSION['ro
                                      <thead class=" text-primary">
                                             <th>Username</th>
                                             <th>Name</th>
-                                            <th>Post</th>
+                                            <th>Department</th>
                                             <th class="text-right">Update</th>
                                         </thead>
                                     <?php
