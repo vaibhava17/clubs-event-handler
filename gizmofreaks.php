@@ -20,7 +20,7 @@ include('plugins/head.php');
       <hr>
       <div class="row">
         <div class="col"> <img src="images/itech.png"></div>
-        <div class="col" style="">
+        <div class="col">
           <br>
           <p>This Club appreciates inclination in good physical well-being and encourages students to participate in National and International sports event. Stride Club aims at offering an opportunity to participate in a broad variety of sports and recreational activities. This Club provides a valuable learning experience through student involvement and enhances the student’s experience that contributes to the student’s overall education and wellness.</p>
           <br>
