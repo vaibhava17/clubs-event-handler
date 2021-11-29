@@ -106,11 +106,11 @@ if (isset($_POST['login'])) {
           <div class="col-md-7">
             <div class="card card-user">
               <div class="image">
-                <img src="../images/Abhiruchi.jpg" alt="...">
+                <img src="../images/ssvgi/about.png" alt="...">
               </div>
               <div class="card-body">
                 <div class="author">
-                  <img class="avatar border-gray" src="../images/logo.jpg" alt="...">
+                  <img class="avatar border-gray" src="../images/ssvgi/ssvgi-logo.jpg" alt="...">
                   <h5 class="title">Welcome To SSVGI CEH</h5>
                   <form action="login.php" method="POST">
                     <div class="row">

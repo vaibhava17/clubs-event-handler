@@ -50,11 +50,11 @@ include('plugins/head.php');
                     <div class="col-md-7">
                         <div class="card card-user">
                             <div class="image">
-                                <img src="../images/Abhiruchi.jpg" alt="...">
+                                <img src="../images/ssvgi/about.png" alt="...">
                             </div>
                             <div class="card-body">
                                 <div class="author">
-                                    <img class="avatar border-gray" src="../images/logo.jpg" alt="...">
+                                    <img class="avatar border-gray" src="../images/ssvgi/ssvgi-logo.jpg" alt="...">
                                     <h5 class="title">Welcome To Abhiruchi CMS</h5>
                                     <a href="login.php">
                                         <button type="submit" class="btn btn-primary" name="login">Enter</button>
