@@ -212,7 +212,7 @@ CREATE TABLE `gladiators` (
 --
 
 INSERT INTO `gladiators` (`id`, `name`, `date`, `context`, `image`, `file`, `filename`, `post_time`) VALUES
-(1, 'new2', '1212-12-12', 'this is new', '../data/stride/PANO_20210621_113409.jpg', '../data/stride/Only for men.pdf', 'Only for men.pdf', '2021-06-28 19:57:04');
+(1, 'new2', '1212-12-12', 'this is new', '../data/gladiators/PANO_20210621_113409.jpg', '../data/gladiators/Only for men.pdf', 'Only for men.pdf', '2021-06-28 19:57:04');
 
 -- --------------------------------------------------------
 
@@ -252,7 +252,7 @@ CREATE TABLE `kalanjali` (
 --
 
 INSERT INTO `kalanjali` (`id`, `name`, `date`, `context`, `image`, `file`, `filename`, `post_time`) VALUES
-(1, 'New ', '1212-12-12', 'This is new', '../data/panache/4te9KaeY7nfuqXr5ND2hc9.jpg', '../data/panache/Only for men.pdf', 'Only for men.pdf', '2021-06-28 19:56:04');
+(1, 'New ', '1212-12-12', 'This is new', '../data/kalanjali/4te9KaeY7nfuqXr5ND2hc9.jpg', '../data/kalanjali/Only for men.pdf', 'Only for men.pdf', '2021-06-28 19:56:04');
 
 -- --------------------------------------------------------
 
