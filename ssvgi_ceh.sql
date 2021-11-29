@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.3
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 29, 2021 at 12:06 PM
--- Server version: 10.4.14-MariaDB
--- PHP Version: 7.4.11
+-- Generation Time: Nov 29, 2021 at 07:28 PM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 8.0.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -361,37 +361,37 @@ CREATE TABLE `teammember` (
 
 INSERT INTO `teammember` (`id`, `username`, `password`, `role`, `post`, `name`, `image`, `auth`, `created_dt`, `updated-dt`) VALUES
 (1, 'kalanjali1', '1234', 'kalanjalitm', 'B. Tech.', 'Mr Pravej Ahmad', '../data/team/tenor.gif', '', '2021-11-29 09:37:32', '2021-11-29 10:03:28'),
-(2, 'kalanjalit2', '1234', 'kalanjalitm', '', '', '', '', '2021-11-29 09:37:32', '2021-11-29 09:38:39'),
-(3, 'kalanjali3', '1234', 'kalanjalitm', '', '', '', '', '2021-11-29 09:37:32', '2021-11-29 09:38:39'),
-(4, 'kalanjali4', '1234', 'kalanjalitm', '', '', '', '', '2021-11-29 09:37:32', '2021-11-29 09:38:39'),
-(5, 'kalanjali5', '1234', 'kalanjalitm', '', '', '', '', '2021-11-29 09:37:32', '2021-11-29 09:38:39'),
-(6, 'kalanjali6', '1234', 'kalanjalitm', '', '', '', '', '2021-11-29 09:37:32', '2021-11-29 09:38:39'),
-(7, 'kalanjali7', '1234', 'kalanjalitm', '', '', '', '', '2021-11-29 09:37:32', '2021-11-29 09:38:39'),
-(8, 'kalanjali8', '1234', 'kalanjalitm', '', '', '', '', '2021-11-29 09:37:32', '2021-11-29 09:38:39'),
-(9, 'gizmofreaks1', '1234', 'gizmofreakstm', '', '', '', '', '2021-11-29 09:37:39', '2021-11-29 09:40:33'),
-(10, 'gizmofreaks2', '1234', 'gizmofreakstm', '', '', '', '', '2021-11-29 09:37:39', '2021-11-29 09:40:33'),
-(11, 'gizmofreaks3', '1234', 'gizmofreakstm', '', '', '', '', '2021-11-29 09:37:39', '2021-11-29 09:40:33'),
-(12, 'gizmofreaks4', '1234', 'gizmofreakstm', '', '', '', '', '2021-11-29 09:37:39', '2021-11-29 09:40:33'),
-(13, 'gizmofreaks5', '1234', 'gizmofreakstm', '', '', '', '', '2021-11-29 09:37:39', '2021-11-29 09:40:33'),
-(14, 'oasis1', '1234', 'oasistm', '', '', '', '', '2021-11-29 09:37:39', '2021-11-29 09:42:01'),
-(15, 'oasis2', '1234', 'oasistm', '', '', '', '', '2021-11-29 09:37:39', '2021-11-29 09:42:01'),
-(16, 'oasis3', '1234', 'oasistm', '', '', '', '', '2021-11-29 09:37:39', '2021-11-29 09:42:01'),
-(17, 'oasis4', '1234', 'oasistm', '', '', '', '', '2021-11-29 09:43:30', '2021-11-29 09:43:30'),
-(18, 'oasis5', '1234', 'oasistm', '', '', '', '', '2021-11-29 09:43:30', '2021-11-29 09:43:30'),
-(19, 'oasis6', '1234', 'oasistm', '', '', '', '', '2021-11-29 09:43:30', '2021-11-29 09:43:30'),
-(20, 'rotaract1', '1234', 'rotaracttm', '', '', '', '', '2021-11-29 09:45:32', '2021-11-29 09:45:32'),
-(21, 'rotaract2', '1234', 'rotaracttm', '', '', '', '', '2021-11-29 09:45:32', '2021-11-29 09:45:32'),
-(22, 'rotaract3', '1234', 'rotaracttm', '', '', '', '', '2021-11-29 09:45:32', '2021-11-29 09:45:32'),
-(23, 'rotaract4', '1234', 'rotaracttm', '', '', '', '', '2021-11-29 09:45:32', '2021-11-29 09:45:32'),
-(24, 'rotaract5', '1234', 'rotaracttm', '', '', '', '', '2021-11-29 09:45:32', '2021-11-29 09:45:32'),
-(25, 'rotaract6', '1234', 'rotaracttm', '', '', '', '', '2021-11-29 09:45:32', '2021-11-29 09:45:32'),
-(26, 'rotaract7', '1234', 'rotaracttm', '', '', '', '', '2021-11-29 09:45:32', '2021-11-29 09:45:32'),
-(27, 'gladiators1', '1234', 'gladiatorstm', '', '', '', '', '2021-11-29 09:47:42', '2021-11-29 09:47:42'),
-(28, 'gladiators2', '1234', 'gladiatorstm', '', '', '', '', '2021-11-29 09:47:42', '2021-11-29 09:47:42'),
-(29, 'gladiators3', '1234', 'gladiatorstm', '', '', '', '', '2021-11-29 09:47:42', '2021-11-29 09:47:42'),
-(30, 'gladiators4', '1234', 'gladiatorstm', '', '', '', '', '2021-11-29 09:47:42', '2021-11-29 09:47:42'),
-(31, 'gladiators5', '1234', 'gladiatorstm', '', '', '', '', '2021-11-29 09:47:42', '2021-11-29 09:47:42'),
-(32, 'gladiators6', '1234', 'gladiatorstm', '', '', '', '', '2021-11-29 09:47:42', '2021-11-29 09:47:42');
+(2, 'kalanjalit2', '1234', 'kalanjalitm', 'B.Tech', 'Mr. Bharat Sharma', '../data/team/professors.jpeg', '', '2021-11-29 09:37:32', '2021-11-29 18:04:12'),
+(3, 'kalanjali3', '1234', 'kalanjalitm', 'B.Tech', 'Mr.. Varun Gupta', '../data/team/professors.jpeg', '', '2021-11-29 09:37:32', '2021-11-29 18:04:48'),
+(4, 'kalanjali4', '1234', 'kalanjalitm', 'M.B.A', 'Ms. Swati Agarwal', '../data/team/professors.jpeg', '', '2021-11-29 09:37:32', '2021-11-29 18:05:27'),
+(5, 'kalanjali5', '1234', 'kalanjalitm', 'Poly', 'Mr. Om Singh', '../data/team/professors.jpeg', '', '2021-11-29 09:37:32', '2021-11-29 18:06:01'),
+(6, 'kalanjali6', '1234', 'kalanjalitm', 'Nursing', 'Ms. Sara Edward', '../data/team/professors.jpeg', '', '2021-11-29 09:37:32', '2021-11-29 18:06:54'),
+(7, 'kalanjali7', '1234', 'kalanjalitm', 'Nursing', 'Mrs. Chitra Saxena', '../data/team/professors.jpeg', '', '2021-11-29 09:37:32', '2021-11-29 18:07:32'),
+(8, 'kalanjali8', '1234', 'kalanjalitm', 'Basic Science', 'Ms. Pooja Yadav', '../data/team/professors.jpeg', '', '2021-11-29 09:37:32', '2021-11-29 18:08:10'),
+(9, 'gizmofreaks1', '1234', 'gizmofreakstm', 'B.Tech', 'Mr. Sudhanshu Ballabh', '../data/team/professors.jpeg', '', '2021-11-29 09:37:39', '2021-11-29 18:16:11'),
+(10, 'gizmofreaks2', '1234', 'gizmofreakstm', 'B.Tech', 'Ms. Sakshi Tripathi', '../data/team/professors.jpeg', '', '2021-11-29 09:37:39', '2021-11-29 18:17:01'),
+(11, 'gizmofreaks3', '1234', 'gizmofreakstm', 'Poly', 'Mr. Prateesh', '../data/team/professors.jpeg', '', '2021-11-29 09:37:39', '2021-11-29 18:17:54'),
+(12, 'gizmofreaks4', '1234', 'gizmofreakstm', 'M.B.A', 'Mr. Ahmad Jamal', '../data/team/professors.jpeg', '', '2021-11-29 09:37:39', '2021-11-29 18:18:49'),
+(13, 'gizmofreaks5', '1234', 'gizmofreakstm', 'Basic Science', 'Ms. Shashi', '../data/team/professors.jpeg', '', '2021-11-29 09:37:39', '2021-11-29 18:19:24'),
+(14, 'oasis1', '1234', 'oasistm', 'B.Tech', 'Mr. Abhinav Saxena', '../data/team/professors.jpeg', '', '2021-11-29 09:37:39', '2021-11-29 18:11:30'),
+(15, 'oasis2', '1234', 'oasistm', 'B.Tech', 'Ms. Smirti Bhandari', '../data/team/professors.jpeg', '', '2021-11-29 09:37:39', '2021-11-29 18:12:19'),
+(16, 'oasis3', '1234', 'oasistm', 'Poly', 'Ms. Mahak', '../data/team/professors.jpeg', '', '2021-11-29 09:37:39', '2021-11-29 18:12:56'),
+(17, 'oasis4', '1234', 'oasistm', 'M.B.A', 'Ms. Sakshi Anand', '../data/team/professors.jpeg', '', '2021-11-29 09:43:30', '2021-11-29 18:13:39'),
+(18, 'oasis5', '1234', 'oasistm', 'Nursing', 'Ms. Aafreen', '../data/team/professors.jpeg', '', '2021-11-29 09:43:30', '2021-11-29 18:14:30'),
+(19, 'oasis6', '1234', 'oasistm', 'Basic Science', 'Ms. Satjeet Kaur', '../data/team/professors.jpeg', '', '2021-11-29 09:43:30', '2021-11-29 18:15:18'),
+(20, 'rotaract1', '1234', 'rotaracttm', 'B.Tech', 'Mr. Anand Bajpayee', '../data/team/professors.jpeg', '', '2021-11-29 09:45:32', '2021-11-29 18:20:10'),
+(21, 'rotaract2', '1234', 'rotaracttm', 'B.Tech', 'Ms. Megha Mishra', '../data/team/professors.jpeg', '', '2021-11-29 09:45:32', '2021-11-29 18:20:51'),
+(22, 'rotaract3', '1234', 'rotaracttm', 'Poly', 'Mr. Astbhuj', '../data/team/professors.jpeg', '', '2021-11-29 09:45:32', '2021-11-29 18:21:33'),
+(23, 'rotaract4', '1234', 'rotaracttm', 'Poly', 'Mr. Aseem', '../data/team/professors.jpeg', '', '2021-11-29 09:45:32', '2021-11-29 18:22:07'),
+(24, 'rotaract5', '1234', 'rotaracttm', 'Nursing', 'Mrs. Ruchi Yadav', '../data/team/professors.jpeg', '', '2021-11-29 09:45:32', '2021-11-29 18:22:46'),
+(25, 'rotaract6', '1234', 'rotaracttm', 'M.B.A', 'Mr. Rahul Mehrotra', '../data/team/professors.jpeg', '', '2021-11-29 09:45:32', '2021-11-29 18:23:30'),
+(26, 'rotaract7', '1234', 'rotaracttm', 'Basic Science', 'Ms. Pooja Mishra', '../data/team/professors.jpeg', '', '2021-11-29 09:45:32', '2021-11-29 18:24:12'),
+(27, 'gladiators1', '1234', 'gladiatorstm', 'B.Tech', 'Dr.  Vidhan Banerjee', '../data/team/professors.jpeg', '', '2021-11-29 09:47:42', '2021-11-29 18:09:09'),
+(28, 'gladiators2', '1234', 'gladiatorstm', 'M.B.A', 'Mr. Lalit', '../data/team/professors.jpeg', '', '2021-11-29 09:47:42', '2021-11-29 18:01:01'),
+(29, 'gladiators3', '1234', 'gladiatorstm', 'Poly', 'Mr. Azeem', '../data/team/professors.jpeg', '', '2021-11-29 09:47:42', '2021-11-29 18:02:47'),
+(30, 'gladiators4', '1234', 'gladiatorstm', 'Poly', 'Mr. Shivraj', '../data/team/professors.jpeg', '', '2021-11-29 09:47:42', '2021-11-29 18:03:33'),
+(31, 'gladiators5', '1234', 'gladiatorstm', 'Nursing', 'Mr. Chahat', '../data/team/professors.jpeg', '', '2021-11-29 09:47:42', '2021-11-29 18:10:01'),
+(32, 'gladiators6', '1234', 'gladiatorstm', 'Basic Science', 'Mr. Dharmendra Kumar', '../data/team/professors.jpeg', '', '2021-11-29 09:47:42', '2021-11-29 18:10:41');
 
 --
 -- Indexes for dumped tables
