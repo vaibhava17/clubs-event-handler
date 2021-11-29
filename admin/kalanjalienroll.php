@@ -36,7 +36,7 @@ if (isset($_SESSION['role']) && $_SESSION['role'] != 'kalanjali' && $_SESSION['r
                                     </thead>
                                     <?php
                                     include('../dbs/connect.php');
-                                    $sql = "SELECT * from panacheenroll";
+                                    $sql = "SELECT * from kalanjalienroll";
                                     $results = $connect->query($sql);
                                     while ($final = $results->fetch_assoc()) {
                                     ?>
