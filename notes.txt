@@ -3,3 +3,8 @@ Stride = Gladiators
 RockOn = Oasis
 I-Tech = Gizmofreaks
 M-Factor = Rotaract
+
+
+jdbc:mysql://49.36.223.27:3306/ssvgi_ceh = url
+
+mysql://b47600205cf4b2:2b1e708b@us-cdbr-east-04.cleardb.com/heroku_60a389ffaea9936?reconnect=true
