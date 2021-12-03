@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.0.3
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 29, 2021 at 07:28 PM
--- Server version: 10.4.21-MariaDB
--- PHP Version: 8.0.10
+-- Generation Time: Dec 03, 2021 at 01:25 PM
+-- Server version: 10.4.14-MariaDB
+-- PHP Version: 7.4.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -167,13 +167,6 @@ CREATE TABLE `gizmofreaks` (
   `post_time` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `gizmofreaks`
---
-
-INSERT INTO `gizmofreaks` (`id`, `name`, `date`, `context`, `image`, `file`, `filename`, `post_time`) VALUES
-(1, 'new3', '1212-12-12', 'this is new post', '../data/itech/1085717.jpg', '../data/itech/Only for men.pdf', 'Only for men.pdf', '2021-06-28 19:58:06');
-
 -- --------------------------------------------------------
 
 --
@@ -207,13 +200,6 @@ CREATE TABLE `gladiators` (
   `post_time` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- Dumping data for table `gladiators`
---
-
-INSERT INTO `gladiators` (`id`, `name`, `date`, `context`, `image`, `file`, `filename`, `post_time`) VALUES
-(1, 'new2', '1212-12-12', 'this is new', '../data/gladiators/PANO_20210621_113409.jpg', '../data/gladiators/Only for men.pdf', 'Only for men.pdf', '2021-06-28 19:57:04');
-
 -- --------------------------------------------------------
 
 --
@@ -246,13 +232,6 @@ CREATE TABLE `kalanjali` (
   `filename` varchar(300) NOT NULL,
   `post_time` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `kalanjali`
---
-
-INSERT INTO `kalanjali` (`id`, `name`, `date`, `context`, `image`, `file`, `filename`, `post_time`) VALUES
-(1, 'New ', '1212-12-12', 'This is new', '../data/kalanjali/4te9KaeY7nfuqXr5ND2hc9.jpg', '../data/kalanjali/Only for men.pdf', 'Only for men.pdf', '2021-06-28 19:56:04');
 
 -- --------------------------------------------------------
 
@@ -360,7 +339,7 @@ CREATE TABLE `teammember` (
 --
 
 INSERT INTO `teammember` (`id`, `username`, `password`, `role`, `post`, `name`, `image`, `auth`, `created_dt`, `updated-dt`) VALUES
-(1, 'kalanjali1', '1234', 'kalanjalitm', 'B. Tech.', 'Mr Pravej Ahmad', '../data/team/tenor.gif', '', '2021-11-29 09:37:32', '2021-11-29 10:03:28'),
+(1, 'kalanjali1', '1234', 'kalanjalitm', 'B. Tech.', 'Mr Pravej Ahmad', '../data/team/professors.jpeg', '', '2021-11-29 09:37:32', '2021-12-03 12:19:23'),
 (2, 'kalanjalit2', '1234', 'kalanjalitm', 'B.Tech', 'Mr. Bharat Sharma', '../data/team/professors.jpeg', '', '2021-11-29 09:37:32', '2021-11-29 18:04:12'),
 (3, 'kalanjali3', '1234', 'kalanjalitm', 'B.Tech', 'Mr.. Varun Gupta', '../data/team/professors.jpeg', '', '2021-11-29 09:37:32', '2021-11-29 18:04:48'),
 (4, 'kalanjali4', '1234', 'kalanjalitm', 'M.B.A', 'Ms. Swati Agarwal', '../data/team/professors.jpeg', '', '2021-11-29 09:37:32', '2021-11-29 18:05:27'),

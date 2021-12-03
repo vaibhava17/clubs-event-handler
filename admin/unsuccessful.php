@@ -22,11 +22,11 @@ include('plugins/head.php');
                     <div class="col-md-7">
                         <div class="card card-user">
                             <div class="image">
-                                <img src="../images/Abhiruchi.jpg" alt="...">
+                                <img src="../images/ssvgi/banner-1.jpg" alt="...">
                             </div>
                             <div class="card-body">
                                 <div class="author">
-                                    <img class="avatar border-gray" src="../images/logo.jpg" alt="...">
+                                    <img class="avatar border-gray" src="../images/ssvgi/ssvgi-logo.jpg" alt="...">
                                     <h5 class="title">Team Member Login Updated Unsuccessfully</h5>
                                 </div>
                             </div>
