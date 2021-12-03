@@ -18,56 +18,14 @@ if (isset($_SESSION['role']) && $_SESSION['role'] != 'admin') {
     <!-- work here -->
     <div class="content">
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col">
           <div class="card card-chart">
             <div class="card-header">
-              <h5 class="card-category">Latest Event</h5>
-              <h4 class="card-title">Shipped Products</h4>
+              <h4 class="card-title text-center my-5">Welcome To Admin Panel of SSVGI Activities Clubs</h4>
             </div>
             <div class="card-body">
-              <div class="chart-area">
-                <canvas id="lineChartExample"></canvas>
-              </div>
-            </div>
-            <div class="card-footer">
-              <div class="stats">
-                <i class="now-ui-icons arrows-1_refresh-69"></i> Just Updated
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="card card-chart">
-            <div class="card-header">
-              <h5 class="card-category">Mails</h5>
-              <h4 class="card-title">All products</h4>
-            </div>
-            <div class="card-body">
-              <div class="chart-area">
-                <canvas id="lineChartExampleWithNumbersAndGrid"></canvas>
-              </div>
-            </div>
-            <div class="card-footer">
-              <div class="stats">
-                <i class="now-ui-icons arrows-1_refresh-69"></i> Just Updated
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="card card-chart">
-            <div class="card-header">
-              <h5 class="card-category">Total Number of Events</h5>
-              <h4 class="card-title">24 Hours Performance</h4>
-            </div>
-            <div class="card-body">
-              <div class="chart-area">
-                <canvas id="barChartSimpleGradientsNumbers"></canvas>
-              </div>
-            </div>
-            <div class="card-footer">
-              <div class="stats">
-                <i class="now-ui-icons ui-2_time-alarm"></i> Last 7 days
+              <div class="chart-area row justify-content-center">
+                <a href="mail.php"><button class="btn btn-primary">Check Mail Box</button></a>
               </div>
             </div>
           </div>

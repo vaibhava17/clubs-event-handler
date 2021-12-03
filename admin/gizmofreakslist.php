@@ -57,7 +57,7 @@ if(isset($_SESSION['role']) && $_SESSION['role']!='gizmofreaks' && $_SESSION['ro
                                                 </a>
                                             </td>
                                             <td class="text-right">
-                                                <a href="izmofreaksdelete.php?del_id=<?php echo $final['id'] ?>">
+                                                <a href="gizmofreaksdelete.php?del_id=<?php echo $final['id'] ?>">
                                                     <button class="btn btn-primary">Delete</button>
                                                 </a>
                                             </td>

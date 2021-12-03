@@ -10,7 +10,7 @@ include('plugins/head.php');
 ?>
 <!-- mukku -->
 <body>
-  <div class="container-fluid pl-0 pr-0 bg-img clearfix parallax-window2" data-parallax="scroll" data-image-src="images/banner.jpg">
+  <div class="container-fluid pl-0 pr-0 bg-img clearfix parallax-window2" data-parallax="scroll" data-image-src="images/ssvgi/banner-1.jpg">
     <?php
     include('plugins/header.php')
     ?>
@@ -39,7 +39,7 @@ include('plugins/head.php');
       </div>
       <div class="col-md-6">
         <figure class="wow bounceInDown">
-          <img src="images/art.jpg" alt="gym" class="img-fluid">
+          <img src="images/ssvgi/kalan.png" alt="gym" class="img-fluid">
         </figure>
         <center>
         <br>
@@ -61,7 +61,7 @@ include('plugins/head.php');
       </div>
       <div class="col-md-6">
         <figure class="wow bounceInDown">
-          <img src="images/stride.png" alt="gym" class="img-fluid">
+          <img src="images/ssvgi/glad.png" alt="gym" class="img-fluid">
         </figure>
         <center>
         <br>
@@ -83,7 +83,7 @@ include('plugins/head.php');
       </div>
       <div class="col-md-6">
         <figure class="wow bounceInDown">
-          <img src="images/r.png" alt="gym" class="img-fluid">
+          <img src="images/ssvgi/oasis.png" alt="gym" class="img-fluid">
         </figure>
         <center>
         <br>
@@ -105,7 +105,7 @@ include('plugins/head.php');
       </div>
       <div class="col-md-6">
         <figure class="wow bounceInDown"> 
-          <img src="images/i.png" alt="gym" class="img-fluid"> 
+          <img src="images/ssvgi/gizmo.png" alt="gym" class="img-fluid"> 
         </figure>
         <center>
         <br>
@@ -126,7 +126,7 @@ include('plugins/head.php');
       </div>
       <div class="col-md-6">
         <figure class="wow bounceInDown"> 
-          <img src="images/i.png" alt="gym" class="img-fluid"> 
+          <img src="images/ssvgi/rata.png" alt="gym" class="img-fluid"> 
         </figure>
         <center>
         <br>

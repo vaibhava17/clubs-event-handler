@@ -10,7 +10,7 @@
       <h3 style=" text-align:center; ">KALANJALI</h3>
       <hr>
       <div class="row">
-        <div class="col"> <img src="images/pana.png"></div>
+        <div class="col"> <img src="images/ssvgi/club/art.jpg"></div>
         <div class="col">
           <br>
           <p>This Club appreciates inclination in good physical well-being and encourages students to participate in National and International sports event. Stride Club aims at offering an opportunity to participate in a broad variety of sports and recreational activities. This Club provides a valuable learning experience through student involvement and enhances the student’s experience that contributes to the student’s overall education and wellness.</p>
@@ -100,7 +100,7 @@
           <div class="col">
             <div class="card">
               <div class="card-header">
-                <img src="ADMIN/<?php echo $final['image']; ?>" alt="stride" />
+                <img src="ADMIN/<?php echo $final['image']; ?>" alt="kalanjali" />
               </div>
               <div class="card-body">
                 <h2>
@@ -128,7 +128,7 @@
                 <!-- Modal -->
                 <hr>
                 <div class="user">
-                  <img src="images/club/stride.png" alt="user" />
+                  <img src="images/ssvgi/kalan.png" alt="user" />
                   <div class="user-info">
                     <h5>Posted On</h5>
                     <p><?php echo $final['post_time'] ?></p>
