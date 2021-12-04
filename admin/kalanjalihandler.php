@@ -25,7 +25,7 @@ move_uploaded_file($image_tmp, $image_store);
 $sql="INSERT INTO kalanjali(date,name,context,file,image,filename) Values('$date','$name','$context','$file_path','$image_path','$file_name')";
 
 if (mysqli_query($connect,$sql)) {
-	header('location: kalanjlilist.php');
+	header('location: kalanjalilist.php');
 }else{
 	header('location: dashboard.php');
 }
