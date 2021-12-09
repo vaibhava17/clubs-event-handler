@@ -1,6 +1,2 @@
-Panache = Kalanjali
-Stride = Gladiators
-RockOn = Oasis
-I-Tech = Gizmofreaks
-M-Factor = Rotaract
+This is club Event Handler Project 
 
