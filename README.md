@@ -18,7 +18,7 @@ Club Event Handler Project also provides a "Admin Panel" strictly for Faculty Me
 </ul>
 </p>
 
-<h4>[Live Demo](https://intense-shelf-96174.herokuapp.com/)</h4> 🖥️
+<a href="https://intense-shelf-96174.herokuapp.com/" target="_blank"><h4>Live Demo</h4></a>🖥️
 
 ## Installation
 
