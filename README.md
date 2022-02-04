@@ -20,12 +20,10 @@ Their are Three Category for Authentication :-
 
 2. Open XAMPP Control panal and start [apache] and [mysql].
 
-3. Clone project from github.
+3. Clone project from github OR Download it!
 ```sh
 git clone https://github.com/vaibhava17/clubs-event-handler.git
 ```
-        OR 
-    Download it!
     
 4. Clone it or extract zip file in to C:\\xampp\htdocs\
 
