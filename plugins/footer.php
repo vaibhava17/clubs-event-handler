@@ -63,16 +63,16 @@
   </div>  
 </footer>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/parallax.js"></script>
-<script src="js/wow.js"></script>
-<script src="js/main.js"></script>
+<script src="assets/js/js/jquery.min.js"></script>
+<script src="assets/js/js/bootstrap.min.js"></script>
+<script src="assets/js/js/parallax.js"></script>
+<script src="assets/js/js/wow.js"></script>
+<script src="assets/js/js/main.js"></script>
 <script src="https://kit.fontawesome.com/cb4a5677fb.js" crossorigin="anonymous"></script>
 <!--Carousel part3-->
-<script src="js2/jquery.min.js"></script>
-<script src="js2/popper.js"></script>
-<script src="js2/bootstrap.min.js"></script>
-<script src="js2/owl.carousel.min.js"></script>
-<script src="js2/main.js"></script>
+<script src="assets/js/js2/jquery.min.js"></script>
+<script src="assets/js/js2/popper.js"></script>
+<script src="assets/js/js2/bootstrap.min.js"></script>
+<script src="assets/js/js2/owl.carousel.min.js"></script>
+<script src="assets/js/js2/main.js"></script>
 <!--Carousel part3 end   **Take css2 and js2 folder-->

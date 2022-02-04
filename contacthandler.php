@@ -14,10 +14,3 @@ if (mysqli_query($connect,$sql)) {
 }else{
 	header('location: #');
 }
-
-?>
-
-
-
-
-

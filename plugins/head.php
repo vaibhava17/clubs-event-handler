@@ -6,18 +6,18 @@
   <title>SSVGI - Activity Club</title>
 
   <!-- Bootstrap CSS -->
-  <link href="css/animate.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+  <link href="assets/css/css/animate.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/css/bootstrap.min.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="assets/css/css/style.css">
 
   <!--Carousel part1-->
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
 
-  <link rel="stylesheet" href="css2/owl.carousel.min.css">
-  <link rel="stylesheet" href="css2/owl.theme.default.min.css">
+  <link rel="stylesheet" href="assets/css/css2/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/css2/owl.theme.default.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
-  <link rel="stylesheet" href="css2/style.css">
+  <link rel="stylesheet" href="assets/css/css2/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
