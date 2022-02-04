@@ -1,7 +1,7 @@
 ![GitHub](https://img.shields.io/github/license/vaibhava17/clubs-event-handler)
 
 
-### Club Event Handler
+## Club Event Handler
 
 <h4>Major Project for B.Tech</h4>
 <p>
@@ -18,7 +18,7 @@ Club Event Handler Project also provides a "Admin Panel" strictly for Faculty Me
 </ul>
 </p>
 
-### Installation
+## Installation
 
 1. Download and Install [XAMPP](https://www.apachefriends.org/download.html).
 
