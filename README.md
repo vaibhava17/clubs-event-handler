@@ -10,7 +10,7 @@ Club Members (Authorised) can "Post" any information or circular regarding any e
 College or School students can "Download" circular file and can get the details form the clubs they are interested in and can apply for the same directly from the page and participate in it. <br>
 In this project students also have ability to apply for "Club Positions" like President, Vice President, Secretary, Joint Secretary, Treasurer. <br>
 Club Event Handler Project also provides a "Admin Panel" strictly for Faculty Members and Club Members of Clubs. <br>  
-<h5>Their are Three Category for Authentication :-</h5> <br>
+<h5>Their are Three Category for Authentication :-</h5>
 <ul>
   <li>⚡ Super Admin - Can handle every clubs with global mail box. </li>
   <li>🔐 Club Admin - Can manage their respected club with club mail box. </li>
@@ -76,11 +76,11 @@ git clone https://github.com/vaibhava17/clubs-event-handler.git
 
 ### Contributing
 
-<h6>Pull Requests are welcome.</h6>
+<h5>Pull Requests are welcome.</h5>
 <p>For major changes or bug fixes, Fork the repo and create new Branch `origin/branch-name`.<br>
 After testing and running of your improvements, issue a Merge Request.<br>
 Approved MR will be Accepted.<br></p>
 
-##License 
+###License 
 
 Read [LICENSE](https://github.com/vaibhava17/clubs-event-handler/blob/master/LICENSE)
