@@ -74,9 +74,9 @@ git clone https://github.com/vaibhava17/clubs-event-handler.git
 ![Image of Super Admin - Club Events Viewer](https://github.com/vaibhava17/clubs-event-handler/blob/master/images/ceh-sampleshots/picture9.png)
 
 
-### Contributing
+## Contributing
 
-<h5>Pull Requests are welcome.</h5>
+<h4>Merge Requests Are Always Welcome.</h4>
 <p>For major changes or bug fixes, Fork the repo and create new Branch `origin/branch-name`.<br>
 After testing and running of your improvements, issue a Merge Request.<br>
 Approved MR will be Accepted.<br></p>
