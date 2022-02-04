@@ -18,6 +18,8 @@ Club Event Handler Project also provides a "Admin Panel" strictly for Faculty Me
 </ul>
 </p>
 
+<h4>[Live Demo](https://intense-shelf-96174.herokuapp.com/)</h4> 🖥️
+
 ## Installation
 
 1. Download and Install [XAMPP](https://www.apachefriends.org/download.html).
